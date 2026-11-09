@@ -6,6 +6,11 @@ Não remeter o usuário ao chat de origem nem pedir aprovação de outro assiste
 
 ## Retomar
 
+Começar por [RETOMADA.md](RETOMADA.md) e `CONTINUIDADE.json`. A branch de
+continuidade é `codex/continuidade-20261109`; `main` é a publicação do site.
+Conferir o Git real antes de editar. A mudança de máquina não autoriza reset,
+reaplicação de patch ou publicação.
+
 1. Ler `core/docs/00_START_HERE.md`, `08_DECISION_LOG.md` e
    `30_L7_EVIDENCE_REVIEW.md`; depois carregar os documentos próprios da tarefa.
 2. Pesquisa/produto: `01_CANONICAL_CONTEXT.md`, `09_RESEARCH_LOG.md`,
@@ -25,7 +30,8 @@ Não remeter o usuário ao chat de origem nem pedir aprovação de outro assiste
   reiniciar Checkpoints 1–3, reconstruir o ambiente ou abrir L8 para esta passagem.
 - Último HEAD integralmente validado: `41b282601c25d6f3e0f9ec574dec9d4049782e62`:
   249 Python e 36 HTTP distintos, mais três repetições, sem somar duplicações.
-  Commits posteriores desta transferência são documentais; conferir o Git atual.
+  Essa validação é histórica. Incrementos posteriores de UX, contrato e marca
+  têm escopos próprios; consultar RETOMADA.md e conferir o Git atual.
 - Manter grafo/lineage e análise operacional juntos, M3 e Aurora 240/512;
   separar os conjuntos de laboratório, indício, inferência e teste histórico.
 - Não transformar UNKNOWN em segurança, nem testes internos em validação externa.

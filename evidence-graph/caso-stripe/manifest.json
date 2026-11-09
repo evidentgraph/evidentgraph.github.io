@@ -1,0 +1,96 @@
+{
+  "adapter": "eg-contract-case/v1",
+  "m3_sources_sha256": {
+    "index.html": "26138915f23061d52b6ce9f2f61e3c058eb74d37df64e56accd245e3ba6e8e61",
+    "styles.css": "816976e282be9827e297891dc554b53d3f8ab407a83b8b97cd753a8a5cee608c",
+    "lineage.css": "ab8f37216dc863ca048e8f864fe7731ec41d7c1c386644a93caad22e05072cc8",
+    "investigation.css": "4782831f34d3c460b540a2720da54c137889a461824d5bfa06a8183f73bb9df8",
+    "data.js": "e4a6f53682fa8bcc3785310f0863cf22215e12fc81c8e24f819d125b780553bc",
+    "app.js": "4b67f17a70300d4d5f350585578823b0d1009d9a4cc76af23a3205b50f64e2ab",
+    "lineage.js": "4bb8b90324a357f3fc8fb23758f5c0843235b4b1daf33c07ac750d899a91c722",
+    "exploration.js": "8c428651296725dfc4c51272d0d84a8293d117da10654d30b1cd73d2926df708",
+    "investigation.js": "50c261f0c2857e9625603b9e22b12139495df88d528eaffe5397c423f6b15e2c",
+    "manifest.json": "5a9fdae09931666fc1839d523d92debdfbe24e2b9be246f1190da5631fe542fe"
+  },
+  "inputs": [
+    {
+      "id": "before",
+      "url": "https://raw.githubusercontent.com/stripe/openapi/5a411d0d1e527229cdb4d6633197ab8009899ce6/openapi/spec3.json",
+      "sha256": "1199cc3c55746cb73b7be5c67b6e41f9b30b6ac428ca6c6d5ac904fa0f7b6acd",
+      "version": "2025-02-24.acacia",
+      "file": "sources/before.json"
+    },
+    {
+      "id": "after",
+      "url": "https://raw.githubusercontent.com/stripe/openapi/072fe51d85959b0ca71c1296b32725c14a78f4a8/openapi/spec3.json",
+      "sha256": "5582327458972d9128a7a5f6e824d5fec72c1b934c6b5972b7e6e3e4ed1bbfaa",
+      "version": "2025-03-31.basil",
+      "file": "sources/after.json"
+    }
+  ],
+  "consumer_coverage": "UNKNOWN",
+  "runtime": "NOT_VERIFIED",
+  "consumer_demo": {
+    "included": true,
+    "scope": "LOCAL_PYTHON_SYNTHETIC_EXCERPTS",
+    "record": "demo/result.json"
+  },
+  "case_assets": 6,
+  "case_relations": 4,
+  "aurora_assets": 240,
+  "aurora_relations": 512,
+  "outputs_sha256": {
+    "README.md": "f2ed4d0ab578b87a95b17c57d028ff05116cdd976193eeaf0346700ac33f7967",
+    "app.js": "880a942b354ef67889126ae609cc95527a7c93b700e30c456f33345d6c94180a",
+    "case-bundle.json": "37dd5d5f4adc370335714d5e7acdf4533883493ba8a68cfbbf0906cae5517122",
+    "consumer_demo.css": "624fe182516456abd635d2194157dd53d4c03585041ab3ce13b7cdc08241b9f6",
+    "consumer_demo.js": "195d27880f7b5dde69977ad54b63becb73b408ce051b407fcc3192330ad2c269",
+    "contract_case.css": "4b2c82d8fe484f5f2c21f74da454aedcc7c55f5f6c470847f20a054ebd978f33",
+    "contract_case.js": "6435e3d7e39521b5d24f5257ddbbbddb22a265d232849be8d7d0bd5b20506310",
+    "data.js": "74ebc384e576c3c0de93be9d01c549ee2f58b0d87fcda73859e0187a86642ac9",
+    "demo/consumer_demo.py": "bb9a66d916576e7b0ef6d6a4e88259a6dda3b18ff4daacb782bf03670e3b967d",
+    "demo/consumer_demo_cases.json": "8b7a65e10768612cbba1cf21202037d585d5082437578c238fd557a41dad341f",
+    "demo/replay_consumer.py": "b826dac42e4c5e7c5b8d5d0898b9c34fbf101c3a8ffa6858f866da40049d11ca",
+    "demo/result.json": "1deba087f5ec7f38c80a588f3a2223d6edb41966e240066c9a77e6540998be75",
+    "exploration.js": "8c428651296725dfc4c51272d0d84a8293d117da10654d30b1cd73d2926df708",
+    "index.html": "7847cee77e99b9842889c39c5d45e035dcaf80ba6ad203d2247a02fcb5c4b404",
+    "investigation.css": "4782831f34d3c460b540a2720da54c137889a461824d5bfa06a8183f73bb9df8",
+    "investigation.js": "c7e74523da9037c66a6f58ee390607cdc08dd00b7ba5f60536da5ae7078e27df",
+    "lineage.css": "ab8f37216dc863ca048e8f864fe7731ec41d7c1c386644a93caad22e05072cc8",
+    "lineage.js": "18da235e4efb8fff0fe846b44b7ef51ce450263d60bdaace8fad84acb52fcfa1",
+    "sources/CONTRACTS_LICENSE.txt": "8c1ce883f4eee7b531e0b7872dbfc72d410ced87dfff9501305de05ca8d203e5",
+    "sources/after.json": "5582327458972d9128a7a5f6e824d5fec72c1b934c6b5972b7e6e3e4ed1bbfaa",
+    "sources/before.json": "1199cc3c55746cb73b7be5c67b6e41f9b30b6ac428ca6c6d5ac904fa0f7b6acd",
+    "styles.css": "816976e282be9827e297891dc554b53d3f8ab407a83b8b97cd753a8a5cee608c",
+    "view_bootstrap.js": "e10487de5b5e0b73b5fde642600acfaede8438ae9c9c8b2a8163c97df79ed12c"
+  },
+  "publication": {
+    "previous_commit": "de1cab2f7fd6178653ab56a4bc357610b25fed01",
+    "previous_manifest_sha256": "cbe4882c0d72fe0fa08e2e5d78e83a0c9e610918e24b5a31f2a4ae0e62880610",
+    "resource_cache_versions": {
+      "styles.css": "816976e282be9827",
+      "lineage.css": "ab8f37216dc863ca",
+      "investigation.css": "4782831f34d3c460",
+      "data.js": "74ebc384e576c3c0",
+      "app.js": "880a942b354ef678",
+      "lineage.js": "18da235e4efb8fff",
+      "exploration.js": "8c428651296725df",
+      "investigation.js": "c7e74523da9037c6",
+      "contract_case.js": "6435e3d7e39521b5",
+      "contract_case.css": "4b2c82d8fe484f5f",
+      "consumer_demo.js": "195d27880f7b5dde",
+      "consumer_demo.css": "624fe182516456ab",
+      "view_bootstrap.js": "e10487de5b5e0b73",
+      "../brand/brand.css": "cf2e6575670e64a0",
+      "../brand/favicon.svg": "e4fd1542565591fd"
+    },
+    "scope": "Public contracts and owned simulated consumer only; real consumers UNKNOWN and real runtime NOT_VERIFIED.",
+    "replay": "demo/replay_consumer.py",
+    "visual_identity": {
+      "name": "Fenda",
+      "manifest": "../brand/manifest.json",
+      "sha256": "8aa3003ee0c09d667b09f147cf697cca567380da75dbaaa145317129ccd1a17c",
+      "behavior_changed": false
+    }
+  }
+}

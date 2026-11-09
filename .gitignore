@@ -1,0 +1,5 @@
+EvidentGraph-privado/
+EvidentGraph-L7-evidencias-*/
+EvidentGraph_Migracao_*.zip
+.venv/
+node_modules/
