@@ -383,3 +383,15 @@ entry document, machine-readable state and a Python-only verification command.
 Keep full private context and evidence in a separate portable archive with
 hashes and restoration instructions. A public clone alone must not claim that
 private context is present. Historical results retain their original scope.
+
+## D-025 — Use the connected private Drive for cross-computer context
+**Date:** 2026-11-09
+**Status:** AUTHORIZED by the owner's request to keep the private files in Drive
+
+Keep code in the existing GitHub continuity branch and the dated private context
+in the owner's Google Drive folder `EvidentGraph`. Its `00_COMECE_AQUI.txt` points
+to readable source documents and the complete verified migration archive. This
+replaces manual ZIP transport as the preferred retrieval path. Preserve private
+access, the original local copies and the existing Pages publication. Do not
+assume that later edits outside the synchronized folder are automatically saved
+to Drive, or that the archive's Git bundle contains subsequent commits.

@@ -42,9 +42,20 @@ altere os hashes dos arquivos publicados.
 
 ## Contexto privado no computador novo
 
-O Git público preserva código e contexto público. Memória integral, edital original, rascunhos, relatórios recebidos, dados pessoais e evidências completas estão no pacote privado de migração preparado separadamente. **Clonar só este repositório não restaura esses materiais.**
+O Git público preserva código e contexto público. Memória integral, edital original, rascunhos, relatórios recebidos, dados pessoais e evidências completas ficam na pasta privada **`EvidentGraph` do Google Drive**, escolhida pelo usuário para a continuidade. Começar por `00_COMECE_AQUI.txt` usando a conexão Google Drive; `Contexto e fontes` permite ler os documentos principais sem extrair o backup. O ZIP integral e seu arquivo de hash estão na mesma pasta. **Clonar só este repositório não restaura esses materiais.**
+
+O Drive para computador também pode disponibilizar essa pasta localmente; não
+presumir letra de disco ou usuário. Acesso pela conexão requer que o novo chat
+tenha acesso à conta correta. Sem acesso, informar a lacuna e pedir a conexão ou
+o caminho da pasta, sem recriar documentos. A cópia é um retrato datado: mudanças
+fora da pasta sincronizada não são enviadas automaticamente ao Drive.
 
 Depois de copiar e extrair o pacote, executar seu `restaurar.py` ou configurar `git config --local evidentgraph.privateContext` com o caminho local da pasta restaurada `transferencia-integral-20261019`. Esse valor não deve ser commitado. Ler primeiro `RETOMADA_NOVO_COMPUTADOR.txt`, depois `RETOMADA.txt` e `ESTADO_TRANSFERENCIA.json` na área privada.
+
+O bundle dentro do backup fixa `936658e`; os documentos de descoberta do Drive
+foram adicionados depois nesta mesma branch. Com internet, conferir a ponta
+remota antes de editar, preservando alterações locais. O backup não acompanha
+automaticamente commits posteriores.
 
 Os caminhos absolutos nos registros antigos são proveniência da máquina de origem. Usar o mapa de raízes do pacote para localizar as cópias; não recriar arquivos ausentes a partir da memória nem alterar originais só para trocar seus hashes. Sem o pacote, seguir apenas trabalho técnico/público e informar a lacuna quando ela for relevante.
 

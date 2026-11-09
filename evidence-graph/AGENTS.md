@@ -23,6 +23,11 @@ reaplicação de patch ou publicação.
    apontado por `git config --local --get evidentgraph.privateContext`, quando
    configurado, e ler ali `RETOMADA.txt` e `ESTADO_TRANSFERENCIA.json`.
    Não copiar esse caminho ou os conteúdos privados para o Git público.
+5. No computador novo, procurar na conexão Google Drive a pasta privada
+   `EvidentGraph` e ler `00_COMECE_AQUI.txt`. Ela contém documentos de leitura
+   direta e o backup integral; não exigir transporte manual do ZIP se o Drive
+   estiver acessível. O disco local e a letra atribuída ao Drive podem mudar.
+   Conferir a data do retrato, a sincronização e as fontes antes de retomar.
 
 ## Preservar
 
