@@ -1,13 +1,13 @@
 # EvidentGraph — começar aqui
 
-Atualização: **09/11/2026**. Este é o ponto de retomada para outro computador ou chat.
+Atualização: **10/11/2026**. Este é o ponto de retomada para outro computador ou chat.
 
 ## Repositório e branch
 
 - Repositório: https://github.com/ASCCJR/asccjr.github.io
 - Branch de continuidade: **`codex/continuidade-20261109`**.
 - `main` contém a publicação do site; não contém todo o laboratório e o trabalho posterior.
-- Esta branch reúne o Core/L7 já existente, as alterações locais de UX/contratos/testes e os ativos Fenda publicados. Não houve merge do PR #3 nem novo deploy por esta organização.
+- Esta branch reúne o Core/L7 já existente, as alterações de UX/contratos/testes e os ativos Fenda publicados. O ajuste visual do PR #4 foi publicado em 10/11/2026 e sincronizado aqui; o PR #3 permanece separado.
 
 ```sh
 git clone -c core.autocrlf=false --branch codex/continuidade-20261109 https://github.com/ASCCJR/asccjr.github.io.git EvidentGraph
@@ -23,12 +23,12 @@ altere os hashes dos arquivos publicados.
 
 - **Produto:** protótipo funcional e laboratório de pesquisa aplicada. Hipótese inicial: apoiar equipes de software/plataforma na revisão de mudanças de APIs. Sem cliente real, ganho de negócio medido ou MVP validado.
 - **Apresentação recomendada:** caso Stripe como exemplo principal e Aurora como complemento de grafo/dependências. Isso é orientação de apresentação, não aprovação de nova funcionalidade.
-- **Interface publicada:** commit `83b393692f23ff4dea9dd8c0e369a5661eccf39a`, com marca Fenda, paleta azul/noite/branco/lavanda, Inter e Roboto Mono. Os arquivos estáticos desta branch correspondem a essa publicação, exceto documentação de retomada.
+- **Interface publicada:** commit `756002f14f6d3c704f371247a965cfc431781830` ([PR #4](https://github.com/ASCCJR/asccjr.github.io/pull/4)), com marca Fenda, paleta azul/noite/branco/lavanda, Inter e Roboto Mono. O item ativo do menu ganhou faixa lavanda de 3 px e peso 600. Os arquivos estáticos desta branch correspondem a essa publicação.
 - **Duas entradas:** `caso-stripe/` oferece `Caso público` e `Grupo Aurora`; `preview-m2/` abre diretamente Aurora e tem atalho para o caso. As opções não desapareceram.
 - **Caso Stripe:** contratos públicos reais e código consumidor próprio com entradas simuladas. Nove cenários, 23 registros de execução; não são 23 clientes/casos independentes. A página mostra resultados preparados. Consumidores reais UNKNOWN e execução real NOT_VERIFIED.
 - **Aurora:** 240 ativos e 512 relações sintéticos. Grafo, lista de conexões e análise operacional permanecem complementares.
 - **L7:** integrada e validada no escopo histórico do checkpoint 30; não reaplicar patch, reconstruir o projeto, reiniciar Checkpoints 1–3 ou abrir L8 para uma transferência. PR #3 segue separado; conferir seu estado remoto antes de uma decisão de merge.
-- **Validação:** resultados históricos, não reexecutados integralmente por esta organização: L7 249 Python/36 HTTP; UX 23 locais/19 repetições públicas; marca 8 locais/8 repetições públicas e 47 recursos por hash. Novo reteste humano e validação comercial não estão confirmados.
+- **Validação:** resultados históricos, não reexecutados integralmente por esta organização: L7 249 Python/36 HTTP; UX 23 locais/19 repetições públicas; marca 8 locais/8 repetições públicas e 47 recursos por hash. Em 10/11/2026, o ajuste do menu passou por conferência local e pública no Edge: duas entradas, navegação entre seções e Tab/Enter, sem erros/avisos no console. Os cinco arquivos alterados publicados conferiram por SHA-256 e o Pages concluiu com sucesso. Esse teste básico não equivale a uma revalidação integral. Novo reteste humano e validação comercial não estão confirmados.
 - **IA:** extração/reconciliação documental permanece hipótese. Não declarar integração Meta, LLM, conectores corporativos ou vantagem científica implementada.
 - **Oportunidades:** CTE-IA, Campus Mobile e inscrições são contextos distintos. Consultar fontes privadas e revalidar prazos/status externos antes de agir. Não deduzir aprovação, rejeição ou envio a partir de um rascunho ou de datas antigas.
 

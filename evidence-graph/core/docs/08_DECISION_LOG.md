@@ -395,3 +395,25 @@ replaces manual ZIP transport as the preferred retrieval path. Preserve private
 access, the original local copies and the existing Pages publication. Do not
 assume that later edits outside the synchronized folder are automatically saved
 to Drive, or that the archive's Git bundle contains subsequent commits.
+
+## D-026 — Verify the chat-to-GitHub-to-site workflow with a small visual change
+**Date:** 2026-11-10
+**Status:** AUTHORIZED, published and verified over HTTPS
+
+The owner chose a small visual adjustment and authorized sending and testing it
+on the public site. PR #4 added a 3 px lavender inset marker and weight 600 to the
+active navigation item, with matching cache references and manifest hashes.
+Its five-file change was based on the existing published main; PR #3 and L7 were
+not merged as part of this release. Pages successfully deployed merge commit
+`756002f14f6d3c704f371247a965cfc431781830` in run `42754832278`.
+
+The local and public views were checked in Edge: Stripe and Aurora load, the
+active item follows section navigation, and Tab/Enter navigation works. No console
+errors or warnings were captured. All five changed public resources matched
+the prepared SHA-256 hashes. These are scoped basic checks, not a repeat of the
+historical L7 suites or independent product validation. Synchronize the same
+visual change and published asset references into the continuity branch.
+
+Repository cleanup for the team and professor is a later task. No files were
+deleted and no Git history was rewritten for this workflow test. Private
+documents remain outside the public repository.
