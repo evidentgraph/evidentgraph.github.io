@@ -1,52 +1,21 @@
 # EvidentGraph
 
-**Dependency Intelligence for Data, Software & AI**
+Protótipo e laboratório de pesquisa aplicada para revisar mudanças e dependências com evidência rastreável e incerteza explícita.
 
-EvidentGraph is an applied-research / portfolio project investigating whether evidence fusion across metadata, code/contracts, authorization, lineage, and runtime telemetry can improve dependency, reachability, and change-impact analysis.
+## Começar
 
-## Repository map
+Para uma explicação completa, inclusive por uma IA, ler [CONTEXTO_PARA_IA.md](../CONTEXTO_PARA_IA.md). O guia público reúne problema, público pretendido, capacidades existentes, arquitetura, pesquisa, limites e próximos passos; não exige acesso ao contexto privado.
 
-### Canonical Core
-`core/`
+- [Caso Stripe](https://asccjr.github.io/evidence-graph/caso-stripe/?source=case&eg_view=analysis&eg_change=CASE-001): contratos reais e consumidor próprio com entradas simuladas.
+- [Grupo Aurora](https://asccjr.github.io/evidence-graph/preview-m2/): ambiente fictício com 240 ativos e 512 relações, grafo/lista, inventário e revisão operacional.
+- [Disciplina e equipe](core/academic/project-discipline/README.md): entregas e registros acadêmicos.
 
-Start here:
-- `core/README.md`
-- `core/docs/00_START_HERE.md`
-- `core/docs/01_CANONICAL_CONTEXT.md`
+O site não observa clientes reais nem chama a API da Stripe para gerar resultados ao vivo. Não há validação comercial ou científica independente demonstrada.
 
-### Academic coursework
-`core/academic/project-discipline/`
+## Desenvolvimento
 
-The Disciplina de Projetos will use **EvidentGraph Core** instead of creating a separate unrelated project.
+`main` publica o site. A [branch de continuidade](https://github.com/ASCCJR/asccjr.github.io/tree/codex/continuidade-20261109) também reúne adaptador de contratos, laboratório L1–L7, experimentos, testes e documentação posterior. Começar pela [retomada técnica](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md) antes de editar.
 
-### Claro / Campus Mobile 2026
-`opportunities/claro-campus-mobile-2026/`
+`core/` reúne o projeto; `core/academic/` registra seu uso na disciplina; `opportunities/` reúne adaptações para oportunidades distintas. Planos antigos são históricos, não autorização para reconstruir etapas concluídas.
 
-This is an isolated mobile-specific adaptation for the Instituto Claro program.
-
-### Synthetic demo
-The existing HTML demo is intentionally preserved at:
-
-https://asccjr.github.io/evidence-graph/
-
-The original professor presentation was canceled, but the demo remains useful for portfolio, future presentations, UX experiments, and opportunity applications.
-
-## Core questions
-
-- **CAN IT?** — can an agent/application/identity reach a resource?
-- **DID IT?** — was the path actually observed?
-- **WHAT BREAKS?** — what may be affected by a change?
-
-## Project memory rule
-
-GitHub is the source of truth.
-
-Chat conversations are working sessions.
-
-If context is lost or compacted, reload the canonical Markdown files rather than reconstructing the project from memory.
-
-## Working name
-
-**EvidentGraph** is the current project name.
-
-It is a working name and has not undergone trademark/domain clearance.
+Servir a raiz do checkout com `python3 -m http.server 8765 --bind 127.0.0.1` e abrir `/evidence-graph/`. Essa entrada encaminha para Stripe; a URL de Aurora permanece válida. A demonstração anterior Acme foi retirada da árvore atual com seu histórico preservado no Git.

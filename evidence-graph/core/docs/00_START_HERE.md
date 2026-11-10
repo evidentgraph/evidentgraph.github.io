@@ -1,5 +1,19 @@
 # START HERE — EvidentGraph Core
 
+## Leitura atual — 10/11/2026
+
+**Primeiro acesso de equipe, orientação ou IA:** ler [CONTEXTO_PARA_IA.md](../../../CONTEXTO_PARA_IA.md). Ele é a síntese pública atual, disponível no clone padrão. Não requer Drive nem chat anterior.
+
+**Desenvolvimento integral:** usar `codex/continuidade-20261109` e a [RETOMADA.md dessa branch](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md). A main contém o site; não contém todos os arquivos do laboratório. O guia descreve o que está em cada uma.
+
+Estado consolidado: Stripe e Aurora publicados com identidade Fenda; L7 integrada no desenvolvimento integral, sem reaplicar patches. O fluxo chat → GitHub → Pages → Edge foi conferido com o PR #4 em 10/11. A organização atual retira a demo Acme, preserva sua URL por redirecionamento e melhora a entrada documental. O PR #3 permanece separado; conferir seu estado antes de qualquer decisão futura.
+
+Ordem para resolver divergências: instrução atual do responsável e estado verificável do Git/código; guia e retomada atualizados; decisões e checkpoints datados; propostas históricas. Um status antigo de “somente local” não revoga uma publicação posterior. Esta orientação de leitura não transforma hipótese em capacidade implementada.
+
+## Documentação histórica preservada
+
+As seções abaixo registram seus respectivos momentos. Afirmações antigas de trabalho pendente, somente local ou de demo preservada não substituem o estado atual acima.
+
 **Retomada em outro computador (09/11/2026):** ler primeiro
 [RETOMADA.md](../../RETOMADA.md). A branch `codex/continuidade-20261109`
 consolida o Core existente, fontes/testes antes locais e a publicação Fenda

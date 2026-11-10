@@ -7,7 +7,7 @@ Atualização: **10/11/2026**. Este é o ponto de retomada para outro computador
 - Repositório: https://github.com/ASCCJR/asccjr.github.io
 - Branch de continuidade: **`codex/continuidade-20261109`**.
 - `main` contém a publicação do site; não contém todo o laboratório e o trabalho posterior.
-- Esta branch reúne o Core/L7 já existente, as alterações de UX/contratos/testes e os ativos Fenda publicados. O ajuste visual do PR #4 foi publicado em 10/11/2026 e sincronizado aqui; o PR #3 permanece separado.
+- Esta branch reúne o Core/L7 já existente, as alterações de UX/contratos/testes e os ativos Fenda publicados. Os PRs #4 (menu) e #5 (limpeza e contexto público para IA) foram publicados em 10/11/2026 e sincronizados aqui; o PR #3 permanece separado.
 
 ```sh
 git clone -c core.autocrlf=false --branch codex/continuidade-20261109 https://github.com/ASCCJR/asccjr.github.io.git EvidentGraph
@@ -23,8 +23,8 @@ altere os hashes dos arquivos publicados.
 
 - **Produto:** protótipo funcional e laboratório de pesquisa aplicada. Hipótese inicial: apoiar equipes de software/plataforma na revisão de mudanças de APIs. Sem cliente real, ganho de negócio medido ou MVP validado.
 - **Apresentação recomendada:** caso Stripe como exemplo principal e Aurora como complemento de grafo/dependências. Isso é orientação de apresentação, não aprovação de nova funcionalidade.
-- **Interface publicada:** commit `756002f14f6d3c704f371247a965cfc431781830` ([PR #4](https://github.com/ASCCJR/asccjr.github.io/pull/4)), com marca Fenda, paleta azul/noite/branco/lavanda, Inter e Roboto Mono. O item ativo do menu ganhou faixa lavanda de 3 px e peso 600. Os arquivos estáticos desta branch correspondem a essa publicação.
-- **Duas entradas:** `caso-stripe/` oferece `Caso público` e `Grupo Aurora`; `preview-m2/` abre diretamente Aurora e tem atalho para o caso. As opções não desapareceram.
+- **Publicação atual:** commit `f2a765913a75cb158055a2c81692dc9cae53b391` ([PR #5](https://github.com/ASCCJR/asccjr.github.io/pull/5)), com guia público para IA, READMEs atualizados e retirada de oito arquivos obsoletos aprovada pelo responsável. A interface mantém a marca Fenda, paleta azul/noite/branco/lavanda, Inter e Roboto Mono e o destaque do menu do PR #4. Os arquivos estáticos desta branch correspondem a essa publicação.
+- **Duas experiências:** `caso-stripe/` oferece `Caso público` e `Grupo Aurora`; `preview-m2/` abre diretamente Aurora e tem atalho para o caso. A entrada `/evidence-graph/` agora redireciona para Stripe, substituindo a demo antiga Acme. As duas experiências atuais permanecem.
 - **Caso Stripe:** contratos públicos reais e código consumidor próprio com entradas simuladas. Nove cenários, 23 registros de execução; não são 23 clientes/casos independentes. A página mostra resultados preparados. Consumidores reais UNKNOWN e execução real NOT_VERIFIED.
 - **Aurora:** 240 ativos e 512 relações sintéticos. Grafo, lista de conexões e análise operacional permanecem complementares.
 - **L7:** integrada e validada no escopo histórico do checkpoint 30; não reaplicar patch, reconstruir o projeto, reiniciar Checkpoints 1–3 ou abrir L8 para uma transferência. PR #3 segue separado; conferir seu estado remoto antes de uma decisão de merge.
@@ -33,6 +33,8 @@ altere os hashes dos arquivos publicados.
 - **Oportunidades:** CTE-IA, Campus Mobile e inscrições são contextos distintos. Consultar fontes privadas e revalidar prazos/status externos antes de agir. Não deduzir aprovação, rejeição ou envio a partir de um rascunho ou de datas antigas.
 
 ## Leitura por assunto
+
+Para primeiro acesso de equipe, orientação ou IA, ler [CONTEXTO_PARA_IA.md](../CONTEXTO_PARA_IA.md). Ele consolida o contexto público sem exigir Drive e distingue main, continuidade, capacidades existentes e hipóteses. O README do caso Stripe, antes ausente nesta branch, foi reposto a partir da versão publicada.
 
 1. [Instruções do projeto](AGENTS.md) e [índice técnico](core/docs/00_START_HERE.md).
 2. Pesquisa/arquitetura: [contexto](core/docs/01_CANONICAL_CONTEXT.md), [decisões](core/docs/08_DECISION_LOG.md), [pesquisa](core/docs/09_RESEARCH_LOG.md), [visão de produto/UX](core/docs/12_PRODUCT_UX_VISION.md).
@@ -79,5 +81,7 @@ python3 -m unittest -v test_case test_consumer_demo
 Testes de navegador M3 usam Node e Playwright separados; configurar `EG_PLAYWRIGHT_MODULE`, `EG_PREVIEW_URL`, `EG_CASE_URL` e `EG_BROWSER_OUTPUT` conforme o README. A rodada de marca usou Playwright Core 1.63.0/Chromium 153. O laboratório L7 conserva requisitos próprios (Playwright 1.57.0 e ambiente suportado); não substituir dependências antigas para fingir revalidação histórica. Reinstalar dependências para o sistema novo quando necessário; não copiar sessões de login ou ambientes virtuais como se fossem portáveis.
 
 ## Próxima sessão
+
+O PR #5 foi conferido localmente e no site público no Edge: redirecionamento, Inventário, troca para Aurora, mapa e entrada direta. Os 44 ativos anteriores mantiveram seus hashes; a entrada de redirecionamento também passou a ser verificada no manifesto de continuidade. A retirada foi limitada aos oito arquivos aprovados, com histórico Git preservado. Esses testes básicos não revalidam as suítes históricas L7.
 
 Confirmar branch/estado e ler o contexto antes de escolher o próximo incremento com o usuário. A migração não autoriza nova funcionalidade, merge, publicação, gastos, contatos, inscrições ou aceite de declarações. Todo o trabalho continua com o usuário no chat novo; não depender de consultar o assistente anterior.

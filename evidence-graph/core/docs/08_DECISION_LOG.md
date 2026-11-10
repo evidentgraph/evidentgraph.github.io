@@ -417,3 +417,36 @@ visual change and published asset references into the continuity branch.
 Repository cleanup for the team and professor is a later task. No files were
 deleted and no Git history was rewritten for this workflow test. Private
 documents remain outside the public repository.
+
+## D-027 — Publish a shared public context guide and retire approved obsolete files
+**Date:** 2026-11-10
+**Status:** AUTHORIZED, implemented and published through PR #5
+
+The owner approved the eight-file cleanup proposal and requested a Markdown entry
+that enables the team or professor to clone the repository and ask an AI to explain
+the project accurately. Add root `CONTEXTO_PARA_IA.md`, route README/AGENTS readers
+to it, and explain the public artifact, complete development branch, implemented
+architecture, research limits, recorded tests, academic context and pending
+validation. A public explanation does not require private Drive sources. The guide
+does not expose the private archive or turn proposed AI capabilities into features.
+
+Remove only the approved root resume stylesheet, old PR #1 data workflow, Acme
+JavaScript/CSS and four obsolete documentary pointers/notices. Replace the old
+entry HTML with a redirect to Stripe. Preserve the two current experiences, 44
+existing published asset hashes, source contracts, licenses, generator copies,
+laboratory, technical chronology, academic work and opportunities. No Git history
+rewrite, PR #3 merge or L7 reconstruction is part of this change.
+
+PR #5 merged as `f2a765913a75cb158055a2c81692dc9cae53b391`. Static checks verified
+the eight deletions, 27 local Markdown links, 25 HTML resource references and the
+redirect. Local and public Edge checks exercised the old URL redirect, inventory,
+source switch, map and direct Aurora entry; no console errors/warnings were captured.
+These are scoped checks, not a rerun of historical functional suites. Synchronize
+the shared entry documents selectively so the continuity branch retains its
+additional historical records. Restore its missing public Stripe README and add
+the redirect to the continuity asset verifier.
+
+Pages run `42758036465` completed successfully for that merge commit. All nine
+new/updated public files matched their prepared bytes over HTTPS; the eight
+removed paths returned HTTP 404. The continuity verifier now checks 45 published
+assets, including the redirect; private sources remain separately verified.

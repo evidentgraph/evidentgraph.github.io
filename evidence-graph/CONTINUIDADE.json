@@ -4,7 +4,7 @@
   "repository": "https://github.com/ASCCJR/asccjr.github.io.git",
   "resume_branch": "codex/continuidade-20261109",
   "feature_base": "f3d7cc2da3a4d37548daac71b6c92e917988e9a9",
-  "published_commit": "756002f14f6d3c704f371247a965cfc431781830",
+  "published_commit": "f2a765913a75cb158055a2c81692dc9cae53b391",
   "entry_document": "evidence-graph/RETOMADA.md",
   "private_context_config": "evidentgraph.privateContext",
   "private_context_in_public_git": false,
@@ -53,7 +53,8 @@
     "evidence-graph/preview-m2/lineage.css": "ab8f37216dc863ca048e8f864fe7731ec41d7c1c386644a93caad22e05072cc8",
     "evidence-graph/preview-m2/lineage.js": "4bb8b90324a357f3fc8fb23758f5c0843235b4b1daf33c07ac750d899a91c722",
     "evidence-graph/preview-m2/manifest.json": "5a9fdae09931666fc1839d523d92debdfbe24e2b9be246f1190da5631fe542fe",
-    "evidence-graph/preview-m2/styles.css": "816976e282be9827e297891dc554b53d3f8ab407a83b8b97cd753a8a5cee608c"
+    "evidence-graph/preview-m2/styles.css": "816976e282be9827e297891dc554b53d3f8ab407a83b8b97cd753a8a5cee608c",
+    "evidence-graph/index.html": "ec9e44cb2c794ebf2fca88e49682f5f4af08bb3cf3844b494cda96593dc1aeab"
   },
   "essential_files": [
     "AGENTS.md",
@@ -67,6 +68,9 @@
     "evidence-graph/core/contract-case/test_case.py",
     "evidence-graph/core/contract-case/consumer_demo.py",
     "evidence-graph/core/demo-ui/test_review_round4.cjs",
-    "evidence-graph/opportunities/cte-ia-2026/README.md"
+    "evidence-graph/opportunities/cte-ia-2026/README.md",
+    "CONTEXTO_PARA_IA.md",
+    "README.md",
+    "evidence-graph/caso-stripe/README.md"
   ]
 }

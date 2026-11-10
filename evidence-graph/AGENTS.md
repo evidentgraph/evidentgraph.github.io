@@ -6,6 +6,11 @@ Não remeter o usuário ao chat de origem nem pedir aprovação de outro assiste
 
 ## Retomar
 
+Para explicar o projeto à equipe ou à orientação, começar por
+[CONTEXTO_PARA_IA.md](../CONTEXTO_PARA_IA.md). Essa leitura pública não exige
+Drive nem o pacote privado. Os passos de contexto privado abaixo se aplicam
+à continuidade integral do responsável quando a tarefa precisar dessas fontes.
+
 Começar por [RETOMADA.md](RETOMADA.md) e `CONTINUIDADE.json`. A branch de
 continuidade é `codex/continuidade-20261109`; `main` é a publicação do site.
 Conferir o Git real antes de editar. A mudança de máquina não autoriza reset,
