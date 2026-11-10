@@ -1,5 +1,17 @@
 # EvidentGraph — Grupo Aurora
 
+## Leitura atual — 10/11/2026
+
+Esta é a entrada atual do **Grupo Aurora**, com 240 ativos e 512 relações fictícios. `preview-m2` é o nome histórico da pasta, não indicação de que a experiência esteja abandonada. O site usa identidade Fenda, mantém grafo/lista e revisão operacional e foi conferido no Edge no teste de publicação de 10/11.
+
+Abrir [Aurora](https://asccjr.github.io/evidence-graph/preview-m2/) ou o [caso Stripe](https://asccjr.github.io/evidence-graph/caso-stripe/). A antiga entrada `/evidence-graph/` agora encaminha para Stripe. Para contexto e limites, ler o [guia para IA e pessoas](../../CONTEXTO_PARA_IA.md).
+
+Os dados e o manifesto deste diretório estão versionados para o GitHub Pages. Servir a raiz do checkout para carregar os ativos compartilhados. Resultados e tempos de rodadas anteriores abaixo são históricos; o teste básico recente não equivale a uma revalidação integral das suítes nem a validação com usuários.
+
+## Documentação histórica preservada
+
+As seções abaixo registram seus respectivos momentos. Afirmações antigas de trabalho pendente, somente local ou de demo preservada não substituem o estado atual acima.
+
 Versão de avaliação com grafo, lista, investigação por ativo e análise de mudanças. O Grupo Aurora e seus dados são fictícios. Site de avaliação: `/evidence-graph/preview-m2/`; a versão anterior em `/evidence-graph/` permanece preservada.
 
 ## Abrir
