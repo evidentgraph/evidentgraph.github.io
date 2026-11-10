@@ -53,7 +53,7 @@
     "demo/replay_consumer.py": "b826dac42e4c5e7c5b8d5d0898b9c34fbf101c3a8ffa6858f866da40049d11ca",
     "demo/result.json": "1deba087f5ec7f38c80a588f3a2223d6edb41966e240066c9a77e6540998be75",
     "exploration.js": "8c428651296725dfc4c51272d0d84a8293d117da10654d30b1cd73d2926df708",
-    "index.html": "7847cee77e99b9842889c39c5d45e035dcaf80ba6ad203d2247a02fcb5c4b404",
+    "index.html": "5d5c79691f439951b8aeaf644550f02dd0d1c14c05ac137cf97d97e99c1e7c7a",
     "investigation.css": "4782831f34d3c460b540a2720da54c137889a461824d5bfa06a8183f73bb9df8",
     "investigation.js": "c7e74523da9037c66a6f58ee390607cdc08dd00b7ba5f60536da5ae7078e27df",
     "lineage.css": "ab8f37216dc863ca048e8f864fe7731ec41d7c1c386644a93caad22e05072cc8",
@@ -65,8 +65,8 @@
     "view_bootstrap.js": "e10487de5b5e0b73b5fde642600acfaede8438ae9c9c8b2a8163c97df79ed12c"
   },
   "publication": {
-    "previous_commit": "de1cab2f7fd6178653ab56a4bc357610b25fed01",
-    "previous_manifest_sha256": "cbe4882c0d72fe0fa08e2e5d78e83a0c9e610918e24b5a31f2a4ae0e62880610",
+    "previous_commit": "83b393692f23ff4dea9dd8c0e369a5661eccf39a",
+    "previous_manifest_sha256": "97e18233652e3ad0ac773167825388ed3fa6fe1fdc782d51d0ec86a79bc8c13f",
     "resource_cache_versions": {
       "styles.css": "816976e282be9827",
       "lineage.css": "ab8f37216dc863ca",
@@ -81,7 +81,7 @@
       "consumer_demo.js": "195d27880f7b5dde",
       "consumer_demo.css": "624fe182516456ab",
       "view_bootstrap.js": "e10487de5b5e0b73",
-      "../brand/brand.css": "cf2e6575670e64a0",
+      "../brand/brand.css": "7c86c4c17170fff1",
       "../brand/favicon.svg": "e4fd1542565591fd"
     },
     "scope": "Public contracts and owned simulated consumer only; real consumers UNKNOWN and real runtime NOT_VERIFIED.",
@@ -89,7 +89,7 @@
     "visual_identity": {
       "name": "Fenda",
       "manifest": "../brand/manifest.json",
-      "sha256": "8aa3003ee0c09d667b09f147cf697cca567380da75dbaaa145317129ccd1a17c",
+      "sha256": "4b88f593934bffe90081aac8c21c8a80be16eb96bfcb256d46e921014d0a85b4",
       "behavior_changed": false
     }
   }
