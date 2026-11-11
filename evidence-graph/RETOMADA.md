@@ -1,6 +1,11 @@
 # EvidentGraph — começar aqui
 
-Atualização: **10/11/2026**. Este é o ponto de retomada para outro computador ou chat.
+Atualização: **11/11/2026**. Este é o ponto de retomada para outro computador ou chat.
+
+Para a mudança de máquina, seguir [NOVO_COMPUTADOR.md](NOVO_COMPUTADOR.md):
+clonagem, requisitos, conferência básica, recuperação privada e ponto exato em
+que o trabalho parou. O código e a limpeza dos PRs #4/#5 já estão sincronizados;
+esta passagem atualiza o contexto e preserva os registros locais posteriores.
 
 ## Repositório e branch
 
@@ -52,7 +57,7 @@ tenha acesso à conta correta. Sem acesso, informar a lacuna e pedir a conexão 
 o caminho da pasta, sem recriar documentos. A cópia é um retrato datado: mudanças
 fora da pasta sincronizada não são enviadas automaticamente ao Drive.
 
-Depois de copiar e extrair o pacote, executar seu `restaurar.py` ou configurar `git config --local evidentgraph.privateContext` com o caminho local da pasta restaurada `transferencia-integral-20261019`. Esse valor não deve ser commitado. Ler primeiro `RETOMADA_NOVO_COMPUTADOR.txt`, depois `RETOMADA.txt` e `ESTADO_TRANSFERENCIA.json` na área privada.
+Ler `00_COMECE_AQUI.txt` e `RETOMADA_ATUAL_20261111.md` no Drive antes dos registros históricos `RETOMADA_NOVO_COMPUTADOR.txt`, `RETOMADA.txt` e `ESTADO_TRANSFERENCIA.json`. Depois de extrair o backup integral numa pasta separada, executar seu `restaurar.py` para um destino novo ou configurar `git config --local evidentgraph.privateContext` com o caminho local da pasta privada já restaurada `transferencia-integral-20261019`. Esse valor não deve ser commitado. O complemento de 11/11 guarda os registros posteriores e um bundle atualizado; os dois pacotes são privados e não devem ser extraídos dentro do Git público.
 
 O bundle dentro do backup fixa `936658e`; os documentos de descoberta do Drive
 foram adicionados depois nesta mesma branch. Com internet, conferir a ponta

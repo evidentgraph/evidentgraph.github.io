@@ -19,6 +19,7 @@ O caso Stripe não representa cliente ou integração real da Stripe. Consumidor
 | [`codex/continuidade-20261109`](https://github.com/ASCCJR/asccjr.github.io/tree/codex/continuidade-20261109) | Desenvolvimento integral público: adaptador, geradores, testes, laboratório e registros atuais |
 | [Guia para IA](CONTEXTO_PARA_IA.md) | Explicação consolidada, limites e roteiro de leitura |
 | [Retomada técnica](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md) | Instruções para continuar o desenvolvimento |
+| [Novo computador ou chat](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/NOVO_COMPUTADOR.md) | Preparação, fontes privadas separadas e estado da passagem de 11/11/2026 |
 | [Disciplina e equipe](evidence-graph/core/academic/project-discipline/README.md) | Atividades, autoria e registros acadêmicos |
 
 Um clone padrão da `main` permite abrir o site e entender o projeto, mas não contém todo o laboratório. O guia informa quais fontes estão na outra branch. Documentos privados e rascunhos confidenciais ficam fora do Git.

@@ -124,7 +124,7 @@ Fonte conceitual: [arquitetura](evidence-graph/core/docs/05_ARCHITECTURE.md). Se
 Para obter esse código em uma pasta nova, sem substituir trabalho existente:
 
 ```sh
-git clone --branch codex/continuidade-20261109 https://github.com/ASCCJR/asccjr.github.io.git EvidentGraph-completo
+git clone -c core.autocrlf=false --branch codex/continuidade-20261109 https://github.com/ASCCJR/asccjr.github.io.git EvidentGraph-completo
 ```
 
 Se já houver checkout, conferir branch e alterações locais antes de trocar. A IA deve informar em qual branch está lendo; não descrever arquivos ausentes como se os tivesse inspecionado. Links para a continuidade exigem internet se seus arquivos não estiverem no clone atual.

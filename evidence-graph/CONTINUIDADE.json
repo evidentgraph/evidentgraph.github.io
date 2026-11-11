@@ -1,6 +1,6 @@
 {
   "schema_version": "evidentgraph-continuity/v1",
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "repository": "https://github.com/ASCCJR/asccjr.github.io.git",
   "resume_branch": "codex/continuidade-20261109",
   "feature_base": "f3d7cc2da3a4d37548daac71b6c92e917988e9a9",
@@ -60,6 +60,7 @@
     "AGENTS.md",
     "evidence-graph/AGENTS.md",
     "evidence-graph/RETOMADA.md",
+    "evidence-graph/NOVO_COMPUTADOR.md",
     "evidence-graph/core/docs/00_START_HERE.md",
     "evidence-graph/core/docs/08_DECISION_LOG.md",
     "evidence-graph/core/docs/30_L7_EVIDENCE_REVIEW.md",

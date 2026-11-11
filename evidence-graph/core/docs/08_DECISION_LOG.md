@@ -450,3 +450,21 @@ Pages run `42758036465` completed successfully for that merge commit. All nine
 new/updated public files matched their prepared bytes over HTTPS; the eight
 removed paths returned HTTP 404. The continuity verifier now checks 45 published
 assets, including the redirect; private sources remain separately verified.
+
+## D-028 — Prepare a fresh-computer handoff without replaying old work
+**Date:** 2026-11-11
+**Status:** AUTHORIZED by the owner's request to synchronize before changing PCs
+
+Keep the current public development branch as the source of code. Add a concise
+fresh-clone guide, preserve byte-for-byte asset verification on Windows, and
+identify the completed visual workflow/public cleanup separately from pending
+human and commercial validation. The old private archive remains immutable;
+update the Drive entry and add a dated supplement for later local evidence and
+the current public Git bundle. Do not copy linked worktrees, credentials or
+machine environments as installation dependencies. Keep historical plans as
+provenance, with current entry documents taking precedence.
+
+This handoff changes documentation and synchronization only. It does not merge
+PR #3, change the published site, remove more files or rerun the historical L7
+suites. Validate a fresh clone and the short adapter tests before reporting the
+handoff ready; retain detailed receipts outside the public repository.
