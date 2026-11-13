@@ -200,6 +200,4 @@ Tenho principalmente estas dúvidas:
 
 ## Link da demo
 
-https://asccjr.github.io/evidence-graph/
-
-A demo é sintética e serve apenas para comunicar a hipótese e os fluxos principais.
+A [demo Acme original](https://github.com/evidentgraph/evidentgraph.github.io/tree/756002f14f6d3c704f371247a965cfc431781830/evidence-graph) fica no histórico do Git. O [site atual](https://evidentgraph.github.io/) apresenta Stripe e Grupo Aurora.

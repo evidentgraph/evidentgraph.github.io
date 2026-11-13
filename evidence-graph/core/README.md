@@ -2,11 +2,11 @@
 
 ## Leitura atual — 10/11/2026
 
-Para entender ou explicar o projeto, começar pelo [guia público para IA e pessoas](../../CONTEXTO_PARA_IA.md). O Core reúne a pesquisa e a implementação; a [branch de continuidade](https://github.com/ASCCJR/asccjr.github.io/tree/codex/continuidade-20261109/evidence-graph/core) contém o laboratório completo, o adaptador e os testes posteriores que não estão todos na main.
+Para entender ou explicar o projeto, começar pelo [guia público para IA e pessoas](../../CONTEXTO_PARA_IA.md). O Core reúne a pesquisa e a implementação; a [branch de continuidade](https://github.com/evidentgraph/evidentgraph.github.io/tree/codex/continuidade-20261109/evidence-graph/core) contém o laboratório completo, o adaptador e os testes posteriores que não estão todos na main.
 
 A experiência pública atual combina [Stripe](../caso-stripe/README.md) e [Aurora](../preview-m2/README.md), com grafo/lista, inventário e análise de mudanças. Há protótipo funcional e laboratório L1–L7; usuários reais, ganho comercial e validação científica independente continuam pendentes. A identidade visual é Fenda.
 
-Para desenvolver, ler a [retomada técnica](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md), as instruções da branch e os documentos da área afetada. Para pesquisa, usar o [índice](docs/00_START_HERE.md), preservando a distinção entre proposta, implementação e resultado medido.
+Para desenvolver, ler a [retomada técnica](https://github.com/evidentgraph/evidentgraph.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md), as instruções da branch e os documentos da área afetada. Para pesquisa, usar o [índice](docs/00_START_HERE.md), preservando a distinção entre proposta, implementação e resultado medido.
 
 ## Documentação histórica preservada
 

@@ -2,7 +2,7 @@
 
 ## Atualização de continuidade em 20/10/2026
 
-A L7 permaneceu integrada durante a transferência integral. O HEAD final `41b282601c25d6f3e0f9ec574dec9d4049782e62` também foi validado após o commit documental: avaliação [39336262728](https://github.com/ASCCJR/asccjr.github.io/actions/runs/39336262728), laboratório [39336262737](https://github.com/ASCCJR/asccjr.github.io/actions/runs/39336262737) e revisão [39336262753](https://github.com/ASCCJR/asccjr.github.io/actions/runs/39336262753). Checkout real `3d73a58c9df3fea9323e51bc52e73b43de742c10`, com árvore idêntica ao HEAD. Os resultados continuam 249 Python e 36 HTTP distintos, mais três repetições corrigidas; a segunda rodada não aumenta os totais.
+A L7 permaneceu integrada durante a transferência integral. O HEAD final `41b282601c25d6f3e0f9ec574dec9d4049782e62` também foi validado após o commit documental: avaliação [39336262728](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/39336262728), laboratório [39336262737](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/39336262737) e revisão [39336262753](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/39336262753). Checkout real `3d73a58c9df3fea9323e51bc52e73b43de742c10`, com árvore idêntica ao HEAD. Os resultados continuam 249 Python e 36 HTTP distintos, mais três repetições corrigidas; a segunda rodada não aumenta os totais.
 
 Os logs finais, relatórios e 12 screenshots finais foram preservados e reconferidos em cópias privadas locais. A memória integral recebida não substitui esses registros diretamente verificados. As alterações posteriores de transferência são apenas documentais; não reexecutam suites, reaplicam patches ou modificam código, requisitos, testes ou workflows. O estado do PR continua rascunho, sem merge/deploy/publicação autorizados.
 
@@ -10,7 +10,7 @@ Os registros abaixo mantêm a cronologia, incluindo a primeira validação em `1
 
 ## Estado atual — Checkpoint 3 concluído, 2026-10-19
 
-**L7 pronta para revisão de merge; publicação não autorizada.** PR [#3](https://github.com/ASCCJR/asccjr.github.io/pull/3) permanece rascunho, na branch `feat/core-runtime-lab-20261015`. As seções históricas abaixo descrevem seus respectivos momentos, inclusive bloqueios e falhas; o resultado atual é o desta seção.
+**L7 pronta para revisão de merge; publicação não autorizada.** PR [#3](https://github.com/evidentgraph/evidentgraph.github.io/pull/3) permanece rascunho, na branch `feat/core-runtime-lab-20261015`. As seções históricas abaixo descrevem seus respectivos momentos, inclusive bloqueios e falhas; o resultado atual é o desta seção.
 
 ### Código e ambiente efetivamente testados
 
@@ -24,9 +24,9 @@ Antes das suítes, ambos os jobs iniciaram o navegador, receberam HTTP 200 em `1
 
 | Run / job | Python | HTTP e repetições | Resultado |
 | --- | --- | --- | --- |
-| [39335649585](https://github.com/ASCCJR/asccjr.github.io/actions/runs/39335649585) / 118344371296 | 124 laboratório + 43 L6-A + 62 L6-B | — | Aprovado |
-| [39335649610](https://github.com/ASCCJR/asccjr.github.io/actions/runs/39335649610) / 118344371534 | 124 laboratório, repetidos | 12 `test_browser_http` + 10 `test_auth_browser` | Aprovado |
-| [39335649617](https://github.com/ASCCJR/asccjr.github.io/actions/runs/39335649617) / 118344371616 | 20 L7 | 14 `test_review_http` + três repetições adicionais de `test_02` | Aprovado |
+| [39335649585](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/39335649585) / 118344371296 | 124 laboratório + 43 L6-A + 62 L6-B | — | Aprovado |
+| [39335649610](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/39335649610) / 118344371534 | 124 laboratório, repetidos | 12 `test_browser_http` + 10 `test_auth_browser` | Aprovado |
+| [39335649617](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/39335649617) / 118344371616 | 20 L7 | 14 `test_review_http` + três repetições adicionais de `test_02` | Aprovado |
 
 São **249 testes Python e 36 casos HTTP distintos**, sem falhas, erros ou skips nesses runs. Os 124 repetidos não ampliam o total Python; as três repetições não criam novos casos HTTP. Os mesmos 249 casos Python também passaram localmente antes do commit, com hashes dos arquivos preservados; isso não aumenta a contagem. As falhas anteriores não foram apagadas nem substituídas por uma simples reexecução.
 
@@ -51,7 +51,7 @@ A inspeção não encontrou regressão visual impeditiva no recorte de 1366 px; 
 
 - WSL local Ubuntu 26.04 continua incompatível com a instalação fixada: o registro oficial não fornece o download para `ubuntu26.04-x64`. Nenhuma alteração local de plataforma, Docker, navegador alternativo ou proteção foi feita.
 - Runs iniciais `39333069823`/`39333071063`: contexto `runner.temp` em posição inválida; corrigido para o passo. Runs `39333339596`/`39333339724`: leitura de pais vazia em checkout raso; corrigida pela leitura do objeto bruto, mantendo as asserções.
-- Ubuntu 24.04, HEAD `ef143550c486529adadb7e41ee07c80c079ea701`: revisão [39333611202](https://github.com/ASCCJR/asccjr.github.io/actions/runs/39333611202) e laboratório [39333611188](https://github.com/ASCCJR/asccjr.github.io/actions/runs/39333611188) falharam com `No usable sandbox!` antes de executar casos HTTP. Autorização e repetições foram impedidas pelo passo anterior; zero screenshots. O erro é confirmado, mas a política específica do host não foi isolada. Avaliação `39333611182` passou as 229 regressões Python.
+- Ubuntu 24.04, HEAD `ef143550c486529adadb7e41ee07c80c079ea701`: revisão [39333611202](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/39333611202) e laboratório [39333611188](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/39333611188) falharam com `No usable sandbox!` antes de executar casos HTTP. Autorização e repetições foram impedidas pelo passo anterior; zero screenshots. O erro é confirmado, mas a política específica do host não foi isolada. Avaliação `39333611182` passou as 229 regressões Python.
 - Nesta continuação em Ubuntu 22.04, não houve falha funcional nem alteração dos oráculos, heurísticas ou do código do produto. O diff é dos dois workflows e do verificador preliminar, seguido apenas por documentação de continuidade.
 - Artefatos selecionados: 27 arquivos (15 logs + 12 PNG), sem viewer ou capturas completas; retenção GitHub de sete dias. Revisão de padrões de credenciais sem achados, sem alegar auditoria exaustiva. Evidências locais necessárias: `EvidentGraph-L7-evidencias-20261019/etapa3-ubuntu22/`, fora do clone. Artefatos remotos são temporários.
 - Alterações posteriores ao HEAD testado limitam-se a `00_START_HERE.md`, este checkpoint e `review-ui/README.md`; nenhuma mudança posterior em código/workflows. `main` continua `fcb5592ce35887520ab8ab6e1d10a5d18586bb28`; Pages usa `main` `/`, com último build em 2026-10-14. Experimentos L6-A/B, resultados/capturas anteriores, dados Aurora e arquivos publicados não mudaram.

@@ -1,6 +1,6 @@
 # EvidentGraph — começar aqui
 
-Atualização: **11/11/2026**. Este é o ponto de retomada para outro computador ou chat.
+Atualização: **13/11/2026**. Este é o ponto de retomada para outro computador ou chat.
 
 Para a mudança de máquina, seguir [NOVO_COMPUTADOR.md](NOVO_COMPUTADOR.md):
 clonagem, requisitos, conferência básica, recuperação privada e ponto exato em
@@ -9,13 +9,14 @@ esta passagem atualiza o contexto e preserva os registros locais posteriores.
 
 ## Repositório e branch
 
-- Repositório: https://github.com/ASCCJR/asccjr.github.io
+- Repositório: https://github.com/evidentgraph/evidentgraph.github.io
+- Site público: https://evidentgraph.github.io/
 - Branch de continuidade: **`codex/continuidade-20261109`**.
 - `main` contém a publicação do site; não contém todo o laboratório e o trabalho posterior.
 - Esta branch reúne o Core/L7 já existente, as alterações de UX/contratos/testes e os ativos Fenda publicados. Os PRs #4 (menu) e #5 (limpeza e contexto público para IA) foram publicados em 10/11/2026 e sincronizados aqui; o PR #3 permanece separado.
 
 ```sh
-git clone -c core.autocrlf=false --branch codex/continuidade-20261109 https://github.com/ASCCJR/asccjr.github.io.git EvidentGraph
+git clone -c core.autocrlf=false --branch codex/continuidade-20261109 https://github.com/evidentgraph/evidentgraph.github.io.git EvidentGraph
 cd EvidentGraph
 python3 evidence-graph/tools/verify_resume.py
 ```
@@ -28,8 +29,8 @@ altere os hashes dos arquivos publicados.
 
 - **Produto:** protótipo funcional e laboratório de pesquisa aplicada. Hipótese inicial: apoiar equipes de software/plataforma na revisão de mudanças de APIs. Sem cliente real, ganho de negócio medido ou MVP validado.
 - **Apresentação recomendada:** caso Stripe como exemplo principal e Aurora como complemento de grafo/dependências. Isso é orientação de apresentação, não aprovação de nova funcionalidade.
-- **Publicação atual:** commit `f2a765913a75cb158055a2c81692dc9cae53b391` ([PR #5](https://github.com/ASCCJR/asccjr.github.io/pull/5)), com guia público para IA, READMEs atualizados e retirada de oito arquivos obsoletos aprovada pelo responsável. A interface mantém a marca Fenda, paleta azul/noite/branco/lavanda, Inter e Roboto Mono e o destaque do menu do PR #4. Os arquivos estáticos desta branch correspondem a essa publicação.
-- **Duas experiências:** `caso-stripe/` oferece `Caso público` e `Grupo Aurora`; `preview-m2/` abre diretamente Aurora e tem atalho para o caso. A entrada `/evidence-graph/` agora redireciona para Stripe, substituindo a demo antiga Acme. As duas experiências atuais permanecem.
+- **Publicação atual:** commit [b24b356](https://github.com/evidentgraph/evidentgraph.github.io/commit/b24b356e014ea6b441eac441b754035bef50c30d) na organização EvidentGraph, com entrada do site na raiz. O [PR #5](https://github.com/evidentgraph/evidentgraph.github.io/pull/5) já havia publicado o guia público e a limpeza aprovada. A interface mantém a marca Fenda, paleta azul/noite/branco/lavanda, Inter e Roboto Mono e o destaque do menu do PR #4. Os arquivos estáticos desta branch correspondem a essa publicação.
+- **Duas experiências:** `caso-stripe/` oferece `Caso público` e `Grupo Aurora`; `preview-m2/` abre diretamente Aurora e tem atalho para o caso. As entradas `/` e `/evidence-graph/` encaminham para Stripe.
 - **Caso Stripe:** contratos públicos reais e código consumidor próprio com entradas simuladas. Nove cenários, 23 registros de execução; não são 23 clientes/casos independentes. A página mostra resultados preparados. Consumidores reais UNKNOWN e execução real NOT_VERIFIED.
 - **Aurora:** 240 ativos e 512 relações sintéticos. Grafo, lista de conexões e análise operacional permanecem complementares.
 - **L7:** integrada e validada no escopo histórico do checkpoint 30; não reaplicar patch, reconstruir o projeto, reiniciar Checkpoints 1–3 ou abrir L8 para uma transferência. PR #3 segue separado; conferir seu estado remoto antes de uma decisão de merge.

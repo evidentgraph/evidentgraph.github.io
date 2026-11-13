@@ -76,7 +76,7 @@ configuração local; não incluir caminhos privados no Git público.
 ## Entrega
 
 Cinco arquivos existentes de `preview-m2/` foram publicados em `main` no commit
-[`a147eaf`](https://github.com/ASCCJR/asccjr.github.io/commit/a147eaf8a0f89758fce84760c1a6495214bd9f77),
+[`a147eaf`](https://github.com/evidentgraph/evidentgraph.github.io/commit/a147eaf8a0f89758fce84760c1a6495214bd9f77),
 com pai `f29ac5d`: `index.html`, `app.js`, `lineage.js`, `investigation.js` e
 `investigation.css`. Não houve merge do PR #3, que continua aberto como draft;
 o checkout de trabalho e seu índice foram preservados.
@@ -86,7 +86,7 @@ arquivos locais testados; os mesmos 16 cenários passaram também por HTTPS,
 sem erro de página ou recurso. São repetições do recorte local, não mais 16 casos
 distintos. Quatro capturas públicas de mapa, lista e campos foram inspecionadas.
 
-[Versão para o novo teste](https://asccjr.github.io/evidence-graph/preview-m2/?review=a147eaf).
+[Versão para o novo teste](https://evidentgraph.github.io/evidence-graph/preview-m2/?review=a147eaf).
 O parâmetro identifica a revisão e não fixa recursos em commit imutável; uma
 visita anterior pode exigir Ctrl+F5 para descartar arquivos em cache.
 Documentação e teste DOM permanecem no checkout local, sem novo envio deles.

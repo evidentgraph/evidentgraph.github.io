@@ -54,9 +54,9 @@ do caso estático. Os 34 recursos da publicação incluem os arquivos de apoio
 inalterados. Fontes públicas, licença e recortes próprios continuam disponíveis;
 o manifesto conserva hashes, versões de cache e instruções de reprodução.
 
-- [Interface Aurora](https://asccjr.github.io/evidence-graph/preview-m2/?review=de1cab2).
-- [Caso Stripe](https://asccjr.github.io/evidence-graph/caso-stripe/?review=de1cab2&source=case&eg_view=analysis&eg_change=CASE-001&eg_scope=all&eg_technical=1).
-- [Commit publicado](https://github.com/ASCCJR/asccjr.github.io/commit/de1cab2f7fd6178653ab56a4bc357610b25fed01).
+- [Interface Aurora](https://evidentgraph.github.io/evidence-graph/preview-m2/?review=de1cab2).
+- [Caso Stripe](https://evidentgraph.github.io/evidence-graph/caso-stripe/?review=de1cab2&source=case&eg_view=analysis&eg_change=CASE-001&eg_scope=all&eg_technical=1).
+- [Commit publicado](https://github.com/evidentgraph/evidentgraph.github.io/commit/de1cab2f7fd6178653ab56a4bc357610b25fed01).
 
 O parâmetro `review` identifica a rodada, sem fixar uma versão imutável. Os arquivos
 JS/CSS referenciados usam hashes para renovar o cache. O checkout da feature,

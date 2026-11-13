@@ -4,7 +4,7 @@
 
 **Primeiro acesso de equipe, orientação ou IA:** ler [CONTEXTO_PARA_IA.md](../../../CONTEXTO_PARA_IA.md). Ele é a síntese pública atual, disponível no clone padrão. Não requer Drive nem chat anterior.
 
-**Desenvolvimento integral:** usar `codex/continuidade-20261109` e a [RETOMADA.md dessa branch](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md). A main contém o site; não contém todos os arquivos do laboratório. O guia descreve o que está em cada uma.
+**Desenvolvimento integral:** usar `codex/continuidade-20261109` e a [RETOMADA.md dessa branch](https://github.com/evidentgraph/evidentgraph.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md). A main contém o site; não contém todos os arquivos do laboratório. O guia descreve o que está em cada uma.
 
 Estado consolidado: Stripe e Aurora publicados com identidade Fenda; L7 integrada no desenvolvimento integral, sem reaplicar patches. O fluxo chat → GitHub → Pages → Edge foi conferido com o PR #4 em 10/11. A organização atual retira a demo Acme, preserva sua URL por redirecionamento e melhora a entrada documental. O PR #3 permanece separado; conferir seu estado antes de qualquer decisão futura.
 
@@ -47,7 +47,7 @@ remain preserved. Adapter, tests and complementary docs are still local.
 
 **M3 and simulated Stripe case published, 2026-10-22:** the owner explicitly
 authorized updating the public site. Commit
-[`64fa503`](https://github.com/ASCCJR/asccjr.github.io/commit/64fa50388e9255d8c0d8bd9f78402c8553b88f71)
+[`64fa503`](https://github.com/evidentgraph/evidentgraph.github.io/commit/64fa50388e9255d8c0d8bd9f78402c8553b88f71)
 updates five UI files and adds the separate static case, including public sources,
 license and explicitly synthetic consumer results. Pages built that commit;
 34 public resources matched their prepared bytes and eleven focused scenarios
@@ -87,7 +87,7 @@ contrast, field names and view labels were improved. URL/history restore section
 change, selection and filters without sharing local notes. Read
 [32_M3_REVIEW_ROUND_2.md](./32_M3_REVIEW_ROUND_2.md) for the scoped checks and limits.
 The owner then authorized publication. Five UI files were published on `main` in
-[`a147eaf`](https://github.com/ASCCJR/asccjr.github.io/commit/a147eaf8a0f89758fce84760c1a6495214bd9f77).
+[`a147eaf`](https://github.com/evidentgraph/evidentgraph.github.io/commit/a147eaf8a0f89758fce84760c1a6495214bd9f77).
 Pages built that commit, ten public resources matched the tested sources, and the
 same 16 focused scenarios passed over public HTTPS with no page/resource errors.
 These repeat the local cases. The later AI re-review is recorded in document 33;
@@ -97,7 +97,7 @@ The previously checked PR #3 stays open as a draft; no merge was performed here.
 **M3 follow-up, 2026-10-20:** the owner authorized a bounded usability pass
 after two internal guided feedback reports, then explicitly authorized publication.
 Five evaluation UI files were published on `main` in
-[`f29ac5d`](https://github.com/ASCCJR/asccjr.github.io/commit/f29ac5d536cac612d1f1f8605e00d356f266c230).
+[`f29ac5d`](https://github.com/evidentgraph/evidentgraph.github.io/commit/f29ac5d536cac612d1f1f8605e00d356f266c230).
 Pages completed that build; ten public resources matched the release and the
 eight focused browser scenarios passed over public HTTPS. Documentation and the
 new DOM test remain local on the feature checkout. Read
@@ -107,7 +107,7 @@ privileged installation; actual captures were inspected. A new participant retes
 remains pending. This does not
 reopen L7 or replace its historical validation below.
 
-Read [30_L7_EVIDENCE_REVIEW.md](./30_L7_EVIDENCE_REVIEW.md) and [review-ui/README.md](../review-ui/README.md). PR [#3](https://github.com/ASCCJR/asccjr.github.io/pull/3) remains a draft on `feat/core-runtime-lab-20261015`. **L7 pronta para revisão de merge; publicação não autorizada.** No merge, deploy or push to `main` is authorized.
+Read [30_L7_EVIDENCE_REVIEW.md](./30_L7_EVIDENCE_REVIEW.md) and [review-ui/README.md](../review-ui/README.md). PR [#3](https://github.com/evidentgraph/evidentgraph.github.io/pull/3) remains a draft on `feat/core-runtime-lab-20261015`. **L7 pronta para revisão de merge; publicação não autorizada.** No merge, deploy or push to `main` is authorized.
 
 L7 presents indication, bounded inference and recorded test outcomes separately in the existing graph/list and operational review. Aurora Revisão (13 assets/12 relations) and Aurora Validação (9/8) are separate from the preserved Grupo Aurora (240/512). Showing historical results does not execute tests; UNKNOWN remains inconclusive. Notes do not change evidence or outcomes.
 
@@ -115,9 +115,9 @@ Last fully validated head, including its checkpoint documentation: `41b282601c25
 
 | Run | Confirmed result |
 | --- | --- |
-| [39336262728 — evaluation](https://github.com/ASCCJR/asccjr.github.io/actions/runs/39336262728) | 124 lab + 43 L6-A + 62 L6-B Python tests passed |
-| [39336262737 — runtime](https://github.com/ASCCJR/asccjr.github.io/actions/runs/39336262737) | Capability check passed; 124 repeated Python tests; 12 navigation + 10 authorization HTTP cases passed |
-| [39336262753 — review](https://github.com/ASCCJR/asccjr.github.io/actions/runs/39336262753) | Capability check passed; 20 L7 Python + 14 HTTP cases passed; three additional corrected-startup repetitions passed |
+| [39336262728 — evaluation](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/39336262728) | 124 lab + 43 L6-A + 62 L6-B Python tests passed |
+| [39336262737 — runtime](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/39336262737) | Capability check passed; 124 repeated Python tests; 12 navigation + 10 authorization HTTP cases passed |
+| [39336262753 — review](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/39336262753) | Capability check passed; 20 L7 Python + 14 HTTP cases passed; three additional corrected-startup repetitions passed |
 
 Totals: **249 distinct Python tests and 36 distinct HTTP cases**, zero failures/errors/skips in these runs. The repeated 124 tests, three startup repetitions and two capability checks do not increase those totals. Twelve actual HTTP screenshots were opened and inspected; see checkpoint 30 for observations and capture limits. Only the two browser jobs moved to Ubuntu 22.04, retaining Python 3.12, Playwright 1.57.0, Chromium 143.0.7499.4/revision 1200 and `chromium_sandbox=True`, as non-root UID 1001. No protection policy was disabled. This is an environment capability check, not a full security audit.
 

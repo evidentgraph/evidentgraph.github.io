@@ -2,7 +2,7 @@
 
 **Status:** plano e formulário de registro; nenhuma entrevista realizada é alegada.  
 **Versão de referência:** Grupo Aurora, M3.  
-**URL:** https://asccjr.github.io/evidence-graph/preview-m2/
+**URL:** https://evidentgraph.github.io/evidence-graph/preview-m2/
 
 ## 1. Conferência técnica antes das sessões
 

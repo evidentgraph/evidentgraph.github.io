@@ -2,7 +2,7 @@
 
 **20/10/2026. Cinco arquivos da interface publicados após autorização específica.**
 
-Publicação em [`f29ac5d`](https://github.com/ASCCJR/asccjr.github.io/commit/f29ac5d536cac612d1f1f8605e00d356f266c230).
+Publicação em [`f29ac5d`](https://github.com/evidentgraph/evidentgraph.github.io/commit/f29ac5d536cac612d1f1f8605e00d356f266c230).
 Este documento e o teste DOM continuam locais no checkout da feature.
 
 O proponente autorizou uma rodada delimitada após dois retornos internos com
@@ -102,7 +102,7 @@ ou falha de recurso. Nove capturas públicas foram preservadas; análise, grafo 
 detalhes em 1366 px foram abertos e inspecionados. Essa repetição não amplia a
 população de casos nem as contagens históricas da L7.
 
-Usar o [link para o novo teste](https://asccjr.github.io/evidence-graph/preview-m2/?review=f29ac5d).
+Usar o [link para o novo teste](https://evidentgraph.github.io/evidence-graph/preview-m2/?review=f29ac5d).
 O servidor mantém recursos em cache por até dez minutos; quem abriu a versão
 anterior deve recarregar com `Ctrl+F5` antes do teste. O parâmetro do link identifica
 a revisão solicitada, sem fixar os arquivos em um commit imutável.

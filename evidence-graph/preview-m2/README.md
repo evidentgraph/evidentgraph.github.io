@@ -4,7 +4,7 @@
 
 Esta é a entrada atual do **Grupo Aurora**, com 240 ativos e 512 relações fictícios. `preview-m2` é o nome histórico da pasta, não indicação de que a experiência esteja abandonada. O site usa identidade Fenda, mantém grafo/lista e revisão operacional e foi conferido no Edge no teste de publicação de 10/11.
 
-Abrir [Aurora](https://asccjr.github.io/evidence-graph/preview-m2/) ou o [caso Stripe](https://asccjr.github.io/evidence-graph/caso-stripe/). A antiga entrada `/evidence-graph/` agora encaminha para Stripe. Para contexto e limites, ler o [guia para IA e pessoas](../../CONTEXTO_PARA_IA.md).
+Abrir [Aurora](https://evidentgraph.github.io/evidence-graph/preview-m2/) ou o [caso Stripe](https://evidentgraph.github.io/evidence-graph/caso-stripe/). A antiga entrada `/evidence-graph/` agora encaminha para Stripe. Para contexto e limites, ler o [guia para IA e pessoas](../../CONTEXTO_PARA_IA.md).
 
 Os dados e o manifesto deste diretório estão versionados para o GitHub Pages. Servir a raiz do checkout para carregar os ativos compartilhados. Resultados e tempos de rodadas anteriores abaixo são históricos; o teste básico recente não equivale a uma revalidação integral das suítes nem a validação com usuários.
 
@@ -22,7 +22,7 @@ Reteste com pessoas continua pendente.
 
 **Publicação em 22/10/2026, commit 64fa503:** orientação do mapa, entrada em lista
 no estreito, links de detalhe/evidência e histórico corrigido estão publicados.
-O menu inclui um atalho para o [caso Stripe com consumidor simulado](https://asccjr.github.io/evidence-graph/caso-stripe/?source=case&eg_view=analysis&eg_change=CASE-001&eg_scope=all&eg_technical=1),
+O menu inclui um atalho para o [caso Stripe com consumidor simulado](https://evidentgraph.github.io/evidence-graph/caso-stripe/?source=case&eg_view=analysis&eg_change=CASE-001&eg_scope=all&eg_technical=1),
 em página separada do catálogo fictício. Ver [publicação e verificação HTTPS](../core/docs/35_PUBLIC_UI_AND_STRIPE_CASE.md)
 e [rodada 3](../core/docs/33_M3_REVIEW_AND_PUBLIC_CASE.md). Este README e os registros
 complementares continuam localmente modificados; o commit publica a interface
@@ -57,7 +57,7 @@ preserva os filtros da análise. As extensões também se inicializam quando ter
 de carregar depois do evento de prontidão do core.
 
 Os cinco arquivos da interface foram publicados com autorização em
-[`f29ac5d`](https://github.com/ASCCJR/asccjr.github.io/commit/f29ac5d536cac612d1f1f8605e00d356f266c230),
+[`f29ac5d`](https://github.com/evidentgraph/evidentgraph.github.io/commit/f29ac5d536cac612d1f1f8605e00d356f266c230),
 com conferência de dez recursos e oito cenários de navegador sobre HTTPS público.
 Este README, o registro da rodada e o teste DOM ainda têm alterações locais.
 Resultados, dados sintéticos e limites da análise não mudaram. Evidências em
@@ -102,7 +102,7 @@ HTTP/HTTPS; o restante da prévia continua sem backend.
 Passaram 19 cenários DOM, 13 testes de exploração, 20 de compatibilidade do gerador
 e 16 cenários em navegador local. As famílias têm escopos distintos; não somar
 às contagens históricas da L7. A publicação foi autorizada e concluída em
-[`a147eaf`](https://github.com/ASCCJR/asccjr.github.io/commit/a147eaf8a0f89758fce84760c1a6495214bd9f77):
+[`a147eaf`](https://github.com/evidentgraph/evidentgraph.github.io/commit/a147eaf8a0f89758fce84760c1a6495214bd9f77):
 dez recursos públicos conferidos por hash e os mesmos 16 cenários aprovados em
 HTTPS. Essas repetições não aumentam os totais. Reteste com pessoas e nova revisão
 pela IA pendentes; textos foram preparados, sem envio. Este README e os registros

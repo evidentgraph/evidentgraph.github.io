@@ -79,7 +79,7 @@ Na L6-B, acrescentar código do consumidor como fonte permitiu 11 previsões cor
 
 Três casos novos violaram expectativas de negócio sem lançar exceção. Isso foi identificado pelo avaliador, não previsto semanticamente pelo analisador. Ausência de erro por abstenção não é precisão perfeita; aumento de informação não prova vantagem do método de fusão.
 
-Referências detalhadas na continuidade: [L6-A](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/core/docs/28_L6_EVIDENCE_EXPERIMENT.md) e [L6-B](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/core/docs/29_L6B_INFERENCE_AND_SEMANTICS.md). Grafos, lineage, OpenTelemetry ou mapeamento de APIs existentes não constituem, por si, novidade científica deste projeto.
+Referências detalhadas na continuidade: [L6-A](https://github.com/evidentgraph/evidentgraph.github.io/blob/codex/continuidade-20261109/evidence-graph/core/docs/28_L6_EVIDENCE_EXPERIMENT.md) e [L6-B](https://github.com/evidentgraph/evidentgraph.github.io/blob/codex/continuidade-20261109/evidence-graph/core/docs/29_L6B_INFERENCE_AND_SEMANTICS.md). Grafos, lineage, OpenTelemetry ou mapeamento de APIs existentes não constituem, por si, novidade científica deste projeto.
 
 ## 6. Arquitetura implementada e papel da IA
 
@@ -124,7 +124,7 @@ Fonte conceitual: [arquitetura](evidence-graph/core/docs/05_ARCHITECTURE.md). Se
 Para obter esse código em uma pasta nova, sem substituir trabalho existente:
 
 ```sh
-git clone -c core.autocrlf=false --branch codex/continuidade-20261109 https://github.com/ASCCJR/asccjr.github.io.git EvidentGraph-completo
+git clone -c core.autocrlf=false --branch codex/continuidade-20261109 https://github.com/evidentgraph/evidentgraph.github.io.git EvidentGraph-completo
 ```
 
 Se já houver checkout, conferir branch e alterações locais antes de trocar. A IA deve informar em qual branch está lendo; não descrever arquivos ausentes como se os tivesse inspecionado. Links para a continuidade exigem internet se seus arquivos não estiverem no clone atual.
@@ -141,11 +141,11 @@ Marcos relevantes:
 - **L1–L7, fechamento em 19/10:** laboratório, capturas, autorização local, experimentos limitados e revisão por níveis de evidência. L7 já está integrada ao desenvolvimento integral.
 - **22–24/10:** caso Stripe/consumidor simulado, correções de UX e identidade Fenda publicados em etapas próprias.
 - **09/11:** consolidação da branch de continuidade e material privado separado para mudança de computador.
-- **10/11:** ajuste do menu publicado pelo [PR #4](https://github.com/ASCCJR/asccjr.github.io/pull/4); teste chat → GitHub → Pages → Edge concluído. Em seguida, organização da entrada e deste guia para equipe e orientação.
+- **10/11:** ajuste do menu publicado pelo [PR #4](https://github.com/evidentgraph/evidentgraph.github.io/pull/4); teste chat → GitHub → Pages → Edge concluído. Em seguida, organização da entrada e deste guia para equipe e orientação.
 
 Na conferência de 10/11, o **PR #3 permanecia aberto como rascunho**, separado da publicação do site. Isso não significa que a L7 esteja pendente de reconstrução. Revalidar o estado remoto antes de uma futura decisão de integração.
 
-Documentos antigos usam expressões como “próxima interface”, “somente local”, “L3 pendente” ou listam stacks pretendidas. São registros de seus momentos; não são uma fila atual de implementação. A [retomada vigente](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md) e o [registro de decisões completo](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/core/docs/08_DECISION_LOG.md) indicam o que foi superado.
+Documentos antigos usam expressões como “próxima interface”, “somente local”, “L3 pendente” ou listam stacks pretendidas. São registros de seus momentos; não são uma fila atual de implementação. A [retomada vigente](https://github.com/evidentgraph/evidentgraph.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md) e o [registro de decisões completo](https://github.com/evidentgraph/evidentgraph.github.io/blob/codex/continuidade-20261109/evidence-graph/core/docs/08_DECISION_LOG.md) indicam o que foi superado.
 
 ## 9. O que os testes demonstram
 
@@ -157,7 +157,7 @@ Documentos antigos usam expressões como “próxima interface”, “somente lo
 | Stripe: nove cenários e 23 registros | Execução simulada dos leitores próprios, sem clientes reais |
 | Teste básico do fluxo em 10/11 | Publicação e navegação conferidas no Edge; não revalida sozinho laboratório, mercado ou segurança de produção |
 
-Os números pertencem a escopos diferentes e não devem ser somados. Para detalhes da L7, consultar o [checkpoint 30](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/core/docs/30_L7_EVIDENCE_REVIEW.md). O HEAD integralmente validado naquele fechamento foi `41b282601c25d6f3e0f9ec574dec9d4049782e62`; os incrementos posteriores têm verificações próprias.
+Os números pertencem a escopos diferentes e não devem ser somados. Para detalhes da L7, consultar o [checkpoint 30](https://github.com/evidentgraph/evidentgraph.github.io/blob/codex/continuidade-20261109/evidence-graph/core/docs/30_L7_EVIDENCE_REVIEW.md). O HEAD integralmente validado naquele fechamento foi `41b282601c25d6f3e0f9ec574dec9d4049782e62`; os incrementos posteriores têm verificações próprias.
 
 A existência de um teste no repositório não comprova uma execução atual. Ao explicar ou avaliar, separar teste de implementação, avaliação experimental, usabilidade e validação comercial.
 

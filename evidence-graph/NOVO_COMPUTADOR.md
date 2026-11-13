@@ -1,6 +1,6 @@
 # Retomar em outro computador ou chat
 
-Atualizado em **11/11/2026**. Leia também [RETOMADA.md](RETOMADA.md) para o estado
+Atualizado em **13/11/2026**. Leia também [RETOMADA.md](RETOMADA.md) para o estado
 do produto e [CONTEXTO_PARA_IA.md](../CONTEXTO_PARA_IA.md) para a explicação pública.
 Este documento organiza a passagem; não inaugura outro checkpoint.
 
@@ -14,7 +14,8 @@ Este documento organiza a passagem; não inaugura outro checkpoint.
 - A continuidade incorporou essas mudanças em `db9d238`; os commits seguintes
   desta passagem atualizam a documentação de migração. Conferir a ponta remota,
   sem voltar automaticamente ao commit citado.
-- A publicação permanece em `f2a765913a75cb158055a2c81692dc9cae53b391`.
+- O repositório foi transferido para a organização EvidentGraph e o site
+  passou a abrir em https://evidentgraph.github.io/.
   Em 11/11, o PR #3 continuava aberto como rascunho, separado da publicação.
 - Não há alteração funcional em andamento para terminar. Depois de conferir a
   retomada, escolher com o responsável o próximo incremento ou teste humano do
@@ -29,7 +30,7 @@ ou dependências do laboratório para este primeiro teste.
 Use uma pasta de destino que ainda não exista:
 
 ```sh
-git clone -c core.autocrlf=false --branch codex/continuidade-20261109 https://github.com/ASCCJR/asccjr.github.io.git EvidentGraph
+git clone -c core.autocrlf=false --branch codex/continuidade-20261109 https://github.com/evidentgraph/evidentgraph.github.io.git EvidentGraph
 cd EvidentGraph
 git status --short --branch
 python3 evidence-graph/tools/verify_resume.py
@@ -68,7 +69,7 @@ cd evidence-graph/core/contract-case
 python3 -m unittest -v test_case test_consumer_demo
 ```
 
-O verificador confere 45 ativos e documentos essenciais. Ele não executa os
+O verificador confere 46 ativos e documentos essenciais. Ele não executa os
 testes funcionais nem verifica publicação remota. PASS sem contexto privado
 significa apenas que o clone público está íntegro. As suítes históricas L7 e
 Playwright mantêm requisitos próprios; não foram integralmente reexecutadas

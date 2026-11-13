@@ -1,10 +1,10 @@
 {
   "schema_version": "evidentgraph-continuity/v1",
-  "as_of": "2026-11-11",
-  "repository": "https://github.com/ASCCJR/asccjr.github.io.git",
+  "as_of": "2026-11-13",
+  "repository": "https://github.com/evidentgraph/evidentgraph.github.io.git",
   "resume_branch": "codex/continuidade-20261109",
   "feature_base": "f3d7cc2da3a4d37548daac71b6c92e917988e9a9",
-  "published_commit": "f2a765913a75cb158055a2c81692dc9cae53b391",
+  "published_commit": "b24b356e014ea6b441eac441b754035bef50c30d",
   "entry_document": "evidence-graph/RETOMADA.md",
   "private_context_config": "evidentgraph.privateContext",
   "private_context_in_public_git": false,
@@ -54,7 +54,8 @@
     "evidence-graph/preview-m2/lineage.js": "4bb8b90324a357f3fc8fb23758f5c0843235b4b1daf33c07ac750d899a91c722",
     "evidence-graph/preview-m2/manifest.json": "5a9fdae09931666fc1839d523d92debdfbe24e2b9be246f1190da5631fe542fe",
     "evidence-graph/preview-m2/styles.css": "816976e282be9827e297891dc554b53d3f8ab407a83b8b97cd753a8a5cee608c",
-    "evidence-graph/index.html": "ec9e44cb2c794ebf2fca88e49682f5f4af08bb3cf3844b494cda96593dc1aeab"
+    "evidence-graph/index.html": "ec9e44cb2c794ebf2fca88e49682f5f4af08bb3cf3844b494cda96593dc1aeab",
+    "index.html": "d20d38a694e8e50a908113a85fa509955415a64076a2c8ac463e3504e6030c2c"
   },
   "essential_files": [
     "AGENTS.md",

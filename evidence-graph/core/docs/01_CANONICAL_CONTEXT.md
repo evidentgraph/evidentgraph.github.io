@@ -123,13 +123,11 @@ The stronger EvidentGraph hypothesis is to correlate Databricks evidence with ot
 
 See `10_DATABRICKS_STRATEGIC_NOTE.md`. These historical competitive notes were not re-verified by the 2026-10-13 product/UX revision.
 
-## 11. Current synthetic demo
+## 11. Original synthetic demo
 
-A reusable synthetic web demo exists at:
+The original Acme demo is preserved in the [Git archive](https://github.com/evidentgraph/evidentgraph.github.io/tree/756002f14f6d3c704f371247a965cfc431781830/evidence-graph). The [current site](https://evidentgraph.github.io/) presents Stripe and Grupo Aurora.
 
-https://asccjr.github.io/evidence-graph/
-
-It currently demonstrates:
+The Acme demo demonstrated:
 - Agent Review;
 - authorization check;
 - runtime trace;

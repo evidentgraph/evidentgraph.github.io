@@ -3,13 +3,13 @@
 **22/10/2026, horário de Fortaleza — publicado e conferido.**
 
 Após a autorização direta do proponente, “pode alterar o publico”, a versão
-[64fa503](https://github.com/ASCCJR/asccjr.github.io/commit/64fa50388e9255d8c0d8bd9f78402c8553b88f71)
+[64fa503](https://github.com/evidentgraph/evidentgraph.github.io/commit/64fa50388e9255d8c0d8bd9f78402c8553b88f71)
 foi publicada por avanço normal de `main`, a partir de `a147eaf`. GitHub Pages
 concluiu o build desse commit em 23/10/2026 às 02:29:50 UTC. Não houve merge do
 PR #3 nem publicação da L7.
 
-- [Interface Aurora revisada](https://asccjr.github.io/evidence-graph/preview-m2/?review=64fa503).
-- [Caso Stripe com consumidor simulado](https://asccjr.github.io/evidence-graph/caso-stripe/?review=64fa503&source=case&eg_view=analysis&eg_change=CASE-001&eg_scope=all&eg_technical=1).
+- [Interface Aurora revisada](https://evidentgraph.github.io/evidence-graph/preview-m2/?review=64fa503).
+- [Caso Stripe com consumidor simulado](https://evidentgraph.github.io/evidence-graph/caso-stripe/?review=64fa503&source=case&eg_view=analysis&eg_change=CASE-001&eg_scope=all&eg_technical=1).
 
 O endereço anterior continua válido e ganhou o atalho “Caso Stripe”. A página
 do caso mantém o seletor entre o caso e Aurora. Os recursos JS/CSS têm versões

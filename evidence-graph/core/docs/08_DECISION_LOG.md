@@ -246,7 +246,7 @@ planned participant retest.
 The owner explicitly requested updating the public site for the next review.
 Publish the five tested UI files only, based on current `main` (`f29ac5d`), without
 merging PR #3 or changing the feature checkout/index. Commit
-[`a147eaf`](https://github.com/ASCCJR/asccjr.github.io/commit/a147eaf8a0f89758fce84760c1a6495214bd9f77)
+[`a147eaf`](https://github.com/evidentgraph/evidentgraph.github.io/commit/a147eaf8a0f89758fce84760c1a6495214bd9f77)
 was pushed as a fast-forward; Pages completed that build. Ten public resources
 matched the local tested files, and the same sixteen browser scenarios passed
 in HTTPS without page/resource errors. Do not count the repeated executions as

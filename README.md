@@ -6,8 +6,8 @@ Protótipo e laboratório de pesquisa aplicada para revisar mudanças de APIs e 
 
 ## Experimentar
 
-- **[Caso Stripe](https://asccjr.github.io/evidence-graph/caso-stripe/?source=case&eg_view=analysis&eg_change=CASE-001):** contratos públicos de duas versões e resultados de leitores próprios com entradas simuladas.
-- **[Grupo Aurora](https://asccjr.github.io/evidence-graph/preview-m2/):** grafo, lista, inventário e análise de mudanças em um ambiente fictício com 240 ativos e 512 relações.
+- **[Caso Stripe](https://evidentgraph.github.io/evidence-graph/caso-stripe/?source=case&eg_view=analysis&eg_change=CASE-001):** contratos públicos de duas versões e resultados de leitores próprios com entradas simuladas.
+- **[Grupo Aurora](https://evidentgraph.github.io/evidence-graph/preview-m2/):** grafo, lista, inventário e análise de mudanças em um ambiente fictício com 240 ativos e 512 relações.
 
 O caso Stripe não representa cliente ou integração real da Stripe. Consumidores reais permanecem desconhecidos e a página mostra resultados preparados. O projeto ainda não tem validação comercial ou científica independente demonstrada.
 
@@ -16,10 +16,10 @@ O caso Stripe não representa cliente ou integração real da Stripe. Consumidor
 | Onde | Conteúdo |
 | --- | --- |
 | `main` | Site publicado pelo GitHub Pages e contexto público para leitura |
-| [`codex/continuidade-20261109`](https://github.com/ASCCJR/asccjr.github.io/tree/codex/continuidade-20261109) | Desenvolvimento integral público: adaptador, geradores, testes, laboratório e registros atuais |
+| [`codex/continuidade-20261109`](https://github.com/evidentgraph/evidentgraph.github.io/tree/codex/continuidade-20261109) | Desenvolvimento integral público: adaptador, geradores, testes, laboratório e registros atuais |
 | [Guia para IA](CONTEXTO_PARA_IA.md) | Explicação consolidada, limites e roteiro de leitura |
-| [Retomada técnica](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md) | Instruções para continuar o desenvolvimento |
-| [Novo computador ou chat](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/NOVO_COMPUTADOR.md) | Preparação, fontes privadas separadas e estado da passagem de 11/11/2026 |
+| [Retomada técnica](https://github.com/evidentgraph/evidentgraph.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md) | Instruções para continuar o desenvolvimento |
+| [Novo computador ou chat](https://github.com/evidentgraph/evidentgraph.github.io/blob/codex/continuidade-20261109/evidence-graph/NOVO_COMPUTADOR.md) | Preparação, fontes privadas separadas e estado da passagem de 11/11/2026 |
 | [Disciplina e equipe](evidence-graph/core/academic/project-discipline/README.md) | Atividades, autoria e registros acadêmicos |
 
 Um clone padrão da `main` permite abrir o site e entender o projeto, mas não contém todo o laboratório. O guia informa quais fontes estão na outra branch. Documentos privados e rascunhos confidenciais ficam fora do Git.
