@@ -13,4 +13,4 @@ Informe `CHROMIUM_PATH` quando Chromium não estiver em `/usr/bin/chromium`. Pla
 
 ## Contexto e versões
 
-Ler [CONTEXTO_PARA_IA.md](../../../CONTEXTO_PARA_IA.md) para o estado atual. A [branch de continuidade](https://github.com/ASCCJR/asccjr.github.io/tree/codex/continuidade-20261109/evidence-graph/core/demo-ui) contém testes posteriores de navegação e do consumidor simulado. A existência de um arquivo de teste não comprova uma execução atual.
+Ler [CONTEXTO_PARA_IA.md](../../../CONTEXTO_PARA_IA.md) para o estado atual. A [branch de continuidade](https://github.com/evidentgraph/evidentgraph.github.io/tree/codex/continuidade-20261109/evidence-graph/core/demo-ui) contém testes posteriores de navegação e do consumidor simulado. A existência de um arquivo de teste não comprova uma execução atual.

@@ -4,7 +4,7 @@
 
 **Primeiro acesso de equipe, orientação ou IA:** ler [CONTEXTO_PARA_IA.md](../../../CONTEXTO_PARA_IA.md). Ele é a síntese pública atual, disponível no clone padrão. Não requer Drive nem chat anterior.
 
-**Desenvolvimento integral:** usar `codex/continuidade-20261109` e a [RETOMADA.md dessa branch](https://github.com/ASCCJR/asccjr.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md). A main contém o site; não contém todos os arquivos do laboratório. O guia descreve o que está em cada uma.
+**Desenvolvimento integral:** usar `codex/continuidade-20261109` e a [RETOMADA.md dessa branch](https://github.com/evidentgraph/evidentgraph.github.io/blob/codex/continuidade-20261109/evidence-graph/RETOMADA.md). A main contém o site; não contém todos os arquivos do laboratório. O guia descreve o que está em cada uma.
 
 Estado consolidado: Stripe e Aurora publicados com identidade Fenda; L7 integrada no desenvolvimento integral, sem reaplicar patches. O fluxo chat → GitHub → Pages → Edge foi conferido com o PR #4 em 10/11. A organização atual retira a demo Acme, preserva sua URL por redirecionamento e melhora a entrada documental. O PR #3 permanece separado; conferir seu estado antes de qualquer decisão futura.
 
