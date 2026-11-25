@@ -120,7 +120,8 @@ class ConsumerDemoTests(unittest.TestCase):
     def test_build_preserves_unknown_real_consumers_and_local_provenance(self):
         path = self.recipe()
         manifest = build(path, self.root / 'view', with_consumer_demo=True)
-        bundle = json.loads((self.root / 'view/case-bundle.json').read_text())
+        bundle_text = (self.root / 'view/case-bundle.json').read_text(encoding='utf-8')
+        bundle = json.loads(bundle_text)
         self.assertTrue(bundle['synthetic'])
         self.assertEqual((manifest['case_assets'], manifest['case_relations']), (6, 4))
         self.assertEqual(bundle['results'][0]['consumers'], [])
@@ -132,7 +133,7 @@ class ConsumerDemoTests(unittest.TestCase):
         self.assertTrue(all(e['synthetic'] for e in bundle['evidence'] if e['claim'] == 'local_simulation_result'))
         for name, digest in manifest['outputs_sha256'].items():
             self.assertEqual(hashlib.sha256((self.root / 'view' / name).read_bytes()).hexdigest(), digest)
-        self.assertNotIn(str(self.root), (self.root / 'view/case-bundle.json').read_text())
+        self.assertNotIn(str(self.root), bundle_text)
         with self.assertRaisesRegex(ValueError, 'new output directory'):
             build(path, self.root / 'view', with_consumer_demo=True)
 

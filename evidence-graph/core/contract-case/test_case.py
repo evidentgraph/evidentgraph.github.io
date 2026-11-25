@@ -99,7 +99,8 @@ class ContractCaseTests(unittest.TestCase):
         original = (self.root / 'before.json').read_bytes()
         manifest = build(self.path, self.root / 'view')
         self.assertEqual(manifest['aurora_assets'], 240)
-        html = (self.root / 'view/index.html').read_text()
+        html = (self.root / 'view/index.html').read_text(encoding='utf-8')
+        self.assertIn('Navegação principal', html)
         self.assertIn('brand/brand.css', html)
         self.assertNotIn('../brand/', html)
         self.assertTrue((self.root / 'view/brand/brand.css').is_file())
@@ -108,7 +109,7 @@ class ContractCaseTests(unittest.TestCase):
         self.assertEqual(manifest['aurora_relations'], 512)
         self.assertEqual((self.root / 'view/sources/before.json').read_bytes(), original)
         self.assertEqual((self.root / 'before.json').read_bytes(), original)
-        self.assertNotIn(str(self.root), (self.root / 'view/case-bundle.json').read_text())
+        self.assertNotIn(str(self.root), (self.root / 'view/case-bundle.json').read_text(encoding='utf-8'))
         for name, digest in manifest['outputs_sha256'].items():
             self.assertEqual(hashlib.sha256((self.root / 'view' / name).read_bytes()).hexdigest(), digest)
         old_manifest = (self.root / 'view/manifest.json').read_bytes()

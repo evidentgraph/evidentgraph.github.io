@@ -222,7 +222,7 @@ def build(recipe_path, out, preview=PREVIEW, with_consumer_demo=False):
         from consumer_demo import run, attach
         demo_report, demo_files = run(facts, inputs)
         attach(bundle, demo_report, demo_files)
-    texts = {name: (preview / name).read_text() for name in FILES}
+    texts = {name: (preview / name).read_text(encoding='utf-8') for name in FILES}
     source_hashes = {name: sha(text.encode()) for name, text in texts.items()}
     match = re.search(r'window.EG_PACKED\s*=\s*("[^"\n]+")\s*;', texts['data.js'])
     if not match:
@@ -250,7 +250,7 @@ def build(recipe_path, out, preview=PREVIEW, with_consumer_demo=False):
     html = replace_once(html, '</head>', '<script src="contract_case.js" defer></script><link rel="stylesheet" href="contract_case.css"></head>')
     texts['index.html'] = html
     for name in ['contract_case.js', 'contract_case.css']:
-        texts[name] = (HERE / name).read_text()
+        texts[name] = (HERE / name).read_text(encoding='utf-8')
     if with_consumer_demo:
         texts['app.js'] = replace_once(texts['app.js'], "value==='documentation'?", "value==='simulation'?'Simulação local':value==='documentation'?")
         texts['app.js'] = replace_once(texts['app.js'], "ev.claim==='consumer_fields'?", "ev.claim==='local_simulation_result'?'Resultado de simulação local':ev.claim==='consumer_fields'?")
@@ -264,7 +264,7 @@ def build(recipe_path, out, preview=PREVIEW, with_consumer_demo=False):
         texts['lineage.js'] = replace_once(texts['lineage.js'], "?'Contratos antes e depois':'Visão corporativa'", "?(data.provenance.consumer_demo?'Contratos e leitores simulados':'Contratos antes e depois'):'Visão corporativa'")
         texts['index.html'] = replace_once(texts['index.html'], '</head>', '<script src="consumer_demo.js" defer></script><link rel="stylesheet" href="consumer_demo.css"></head>')
         for name in ['consumer_demo.js', 'consumer_demo.css']:
-            texts[name] = (HERE / name).read_text()
+            texts[name] = (HERE / name).read_text(encoding='utf-8')
     # Keep standalone generated views portable after the shared Fenda assets.
     brand_files = {}
     if '../brand/' in texts['index.html']:
@@ -288,8 +288,8 @@ def build(recipe_path, out, preview=PREVIEW, with_consumer_demo=False):
         target.write_bytes(raw)
     for name, text in texts.items():
         if name != 'manifest.json':
-            (out / name).write_text(text)
-    (out / 'case-bundle.json').write_text(json.dumps(bundle, ensure_ascii=False, indent=2) + '\n')
+            (out / name).write_text(text, encoding='utf-8')
+    (out / 'case-bundle.json').write_text(json.dumps(bundle, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     manifest = {'adapter': 'eg-contract-case/v1', 'm3_sources_sha256': source_hashes,
                 'inputs': facts['sources'], 'consumer_coverage': 'UNKNOWN', 'runtime': 'NOT_VERIFIED',
                 'consumer_demo': {'included': with_consumer_demo,
@@ -298,7 +298,7 @@ def build(recipe_path, out, preview=PREVIEW, with_consumer_demo=False):
                 'case_assets': len(bundle['assets']), 'case_relations': len(bundle['relations']),
                 'aurora_assets': 240, 'aurora_relations': 512,
                 'outputs_sha256': {p.relative_to(out).as_posix(): sha(p.read_bytes()) for p in out.rglob('*') if p.is_file()}}
-    (out / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
+    (out / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
     return manifest
 
 
