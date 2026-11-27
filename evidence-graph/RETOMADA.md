@@ -1,6 +1,6 @@
 # EvidentGraph — começar aqui
 
-Atualização: **13/11/2026**. Este é o ponto de retomada para outro computador ou chat.
+Atualizado em **26/11/2026**. Este é o ponto de retomada para outro computador ou chat.
 
 Para a mudança de máquina, seguir [NOVO_COMPUTADOR.md](NOVO_COMPUTADOR.md):
 clonagem, requisitos, conferência básica, recuperação privada e ponto exato em
@@ -29,7 +29,15 @@ altere os hashes dos arquivos publicados.
 
 - **Produto:** protótipo funcional e laboratório de pesquisa aplicada. Hipótese inicial: apoiar equipes de software/plataforma na revisão de mudanças de APIs. Sem cliente real, ganho de negócio medido ou MVP validado.
 - **Apresentação recomendada:** caso Stripe como exemplo principal e Aurora como complemento de grafo/dependências. Isso é orientação de apresentação, não aprovação de nova funcionalidade.
-- **Publicação atual:** commit [b24b356](https://github.com/evidentgraph/evidentgraph.github.io/commit/b24b356e014ea6b441eac441b754035bef50c30d) na organização EvidentGraph, com entrada do site na raiz. O [PR #5](https://github.com/evidentgraph/evidentgraph.github.io/pull/5) já havia publicado o guia público e a limpeza aprovada. A interface mantém a marca Fenda, paleta azul/noite/branco/lavanda, Inter e Roboto Mono e o destaque do menu do PR #4. Os arquivos estáticos desta branch correspondem a essa publicação.
+- O [site publicado em `ef285a6`](https://github.com/evidentgraph/evidentgraph.github.io/commit/ef285a67aef8d265ec449c64519628971d972cfb)
+  recebeu a nova geração do caso Stripe em 24/11/2026. O gerador com UTF-8 explícito no Windows
+  preservou as entradas e os resultados dos 23 registros simulados. A publicação foi concluída
+  pelo [GitHub Pages](https://github.com/evidentgraph/evidentgraph.github.io/actions/runs/45525031013).
+  Conferimos 47 arquivos por SHA-256, os redirecionamentos e a troca entre Stripe e Aurora no Edge.
+  Os cinco arquivos republicados estão espelhados nesta branch. O site abre pela raiz e mantém
+  a marca Fenda, paleta azul/noite/branco/lavanda, Inter e Roboto Mono e o destaque do menu do PR #4.
+  O [PR #5](https://github.com/evidentgraph/evidentgraph.github.io/pull/5) já havia publicado o guia
+  público e a limpeza aprovada.
 - **Duas experiências:** `caso-stripe/` oferece `Caso público` e `Grupo Aurora`; `preview-m2/` abre diretamente Aurora e tem atalho para o caso. As entradas `/` e `/evidence-graph/` encaminham para Stripe.
 - **Caso Stripe:** contratos públicos reais e código consumidor próprio com entradas simuladas. Nove cenários, 23 registros de execução; não são 23 clientes/casos independentes. A página mostra resultados preparados. Consumidores reais UNKNOWN e execução real NOT_VERIFIED.
 - **Aurora:** 240 ativos e 512 relações sintéticos. Grafo, lista de conexões e análise operacional permanecem complementares.
